@@ -48,7 +48,7 @@ export default function ProjectCard({ project }: { project: Project }) {
       </Link>
 
       {project.links.length > 0 && (
-        <div className="mt-3 flex flex-wrap gap-2 border-t border-gray-100 pt-3">
+        <div className="mt-3 flex flex-wrap items-center gap-1.5 border-t border-gray-100 pt-3">
           {project.links.map((url) => {
             const meta = getLinkMeta(url);
             return (
@@ -58,9 +58,10 @@ export default function ProjectCard({ project }: { project: Project }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
-                className={`inline-flex items-center gap-1 rounded px-2 py-1 text-xs transition ${meta.className}`}
+                title={meta.label}
+                className={`inline-flex items-center rounded-full p-1.5 transition ${meta.className}`}
               >
-                {meta.label}
+                {meta.icon()}
               </a>
             );
           })}

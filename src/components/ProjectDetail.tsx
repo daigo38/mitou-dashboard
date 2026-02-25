@@ -117,29 +117,31 @@ export default function ProjectDetail({ project }: { project: Project }) {
               クリエータ
             </h2>
             {project.creators.map((creator, i) => (
-              <div key={i} className={i > 0 ? "mt-2" : ""}>
-                <p className="font-medium text-gray-900">{creator.name}</p>
+              <div key={i} className={i > 0 ? "mt-3" : ""}>
+                <div className="flex items-center gap-2">
+                  <p className="font-medium text-gray-900">{creator.name}</p>
+                  {creator.links && creator.links.length > 0 && (
+                    <div className="flex items-center gap-0.5">
+                      {creator.links.map((url) => {
+                        const meta = getLinkMeta(url);
+                        return (
+                          <a
+                            key={url}
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title={meta.label}
+                            className={`inline-flex rounded-full p-1 transition ${meta.className}`}
+                          >
+                            {meta.icon("h-3.5 w-3.5")}
+                          </a>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
                 {creator.affiliation && (
                   <p className="text-sm text-gray-600">{creator.affiliation}</p>
-                )}
-                {creator.links && creator.links.length > 0 && (
-                  <div className="mt-1 flex flex-wrap gap-1">
-                    {creator.links.map((url) => {
-                      const meta = getLinkMeta(url);
-                      return (
-                        <a
-                          key={url}
-                          href={url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-0.5 rounded px-1.5 py-0.5 text-xs transition hover:opacity-80"
-                          style={{ fontSize: "0.65rem" }}
-                        >
-                          {meta.label}
-                        </a>
-                      );
-                    })}
-                  </div>
                 )}
               </div>
             ))}
@@ -173,22 +175,11 @@ export default function ProjectDetail({ project }: { project: Project }) {
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 rounded-md bg-gray-100 px-3 py-1.5 text-sm text-blue-700 transition hover:bg-gray-200"
+                    title={meta.label}
+                    className={`inline-flex items-center gap-1.5 rounded-md bg-gray-50 px-3 py-1.5 text-sm transition hover:bg-gray-100 ${meta.className}`}
                   >
-                    {meta.label}
-                    <svg
-                      className="h-3.5 w-3.5"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                      />
-                    </svg>
+                    {meta.icon("h-4 w-4")}
+                    <span>{meta.label}</span>
                   </a>
                 );
               })}
