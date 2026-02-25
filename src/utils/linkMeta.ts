@@ -4,6 +4,7 @@ interface LinkMeta {
   label: string;
   icon: (className?: string) => ReactElement;
   className: string;
+  showLabel?: boolean;
 }
 
 function makeSvgIcon(d: string, fill?: boolean) {
@@ -65,6 +66,7 @@ const rules: { test: (url: string) => boolean; meta: LinkMeta }[] = [
       label: "IPA",
       icon: icons.ipa,
       className: "text-gray-500 hover:text-gray-900",
+      showLabel: true,
     },
   },
   {

@@ -59,9 +59,10 @@ export default function ProjectCard({ project }: { project: Project }) {
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
                 title={meta.label}
-                className={`inline-flex items-center rounded-full p-1.5 transition ${meta.className}`}
+                className={`inline-flex items-center gap-1 rounded-full p-1.5 text-xs font-medium transition ${meta.className}`}
               >
                 {meta.icon()}
+                {meta.showLabel && <span className="pr-1">{meta.label}</span>}
               </a>
             );
           })}
