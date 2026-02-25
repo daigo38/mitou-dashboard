@@ -48,7 +48,7 @@ export default function FilterBar({
       <div>
         <input
           type="text"
-          placeholder="タイトル・概要を検索..."
+          placeholder="タイトル・概要・名前を検索..."
           value={searchQuery}
           onChange={(e) => onSearchChange(e.target.value)}
           className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
