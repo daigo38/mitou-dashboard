@@ -22,7 +22,8 @@
     ],
     "budget": 10000000,
     "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2021/gaiyou_is-1.html"
+      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2021/gaiyou_is-1.html",
+      "demoVideo": "https://www.youtube.com/watch?v=kLwL15Gzvrk"
     }
   },
   {
@@ -61,7 +62,8 @@
     "budget": 10000000,
     "links": {
       "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2021/gaiyou_ur-1.html",
-      "website": "https://mizlinx.com/"
+      "website": "https://mizlinx.com/",
+      "demoVideo": "https://www.youtube.com/watch?v=2C9FLTEOk-s"
     }
   },
   {
@@ -91,7 +93,8 @@
     ],
     "budget": 10000000,
     "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2021/gaiyou_ur-2.html"
+      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2021/gaiyou_ur-2.html",
+      "demoVideo": "https://www.youtube.com/watch?v=94jfduKaIfE"
     }
   },
   {
@@ -114,7 +117,8 @@
     "budget": 6400000,
     "links": {
       "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2021/gaiyou_os-1.html",
-      "website": "https://axstudio.dev/"
+      "website": "https://axstudio.dev/",
+      "demoVideo": "https://www.youtube.com/watch?v=suSeH_NC2Bo"
     }
   },
   {
@@ -140,7 +144,8 @@
     ],
     "budget": 10000000,
     "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2021/gaiyou_hd-1.html"
+      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2021/gaiyou_hd-1.html",
+      "demoVideo": "https://www.youtube.com/watch?v=QsbUwUAX5mo"
     }
   },
   {
@@ -174,7 +179,8 @@
     ],
     "budget": 10000000,
     "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2021/gaiyou_hn-1.html"
+      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2021/gaiyou_hn-1.html",
+      "demoVideo": "https://www.youtube.com/watch?v=e3a5eEp6xlY"
     }
   },
   {
@@ -208,7 +214,8 @@
     ],
     "budget": 10000000,
     "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2021/gaiyou_fj-1.html"
+      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2021/gaiyou_fj-1.html",
+      "demoVideo": "https://www.youtube.com/watch?v=SoNKV61KtlI"
     }
   }
 ]
