@@ -32,9 +32,12 @@ export default function Home() {
       if (selectedPm !== "all" && p.pm.name !== selectedPm) return false;
       if (searchQuery) {
         const q = searchQuery.toLowerCase();
+        const creatorNames = p.creators.map((c) => c.name).join(" ");
         if (
           !p.title.toLowerCase().includes(q) &&
-          !p.description.toLowerCase().includes(q)
+          !p.description.toLowerCase().includes(q) &&
+          !creatorNames.toLowerCase().includes(q) &&
+          !p.pm.name.toLowerCase().includes(q)
         )
           return false;
       }
