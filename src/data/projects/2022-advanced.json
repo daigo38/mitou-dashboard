@@ -21,10 +21,10 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_is-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=K7XGT_LUdd0"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_is-1.html",
+      "https://www.youtube.com/watch?v=K7XGT_LUdd0"
+    ]
   },
   {
     "id": "2022-advanced-ur-1",
@@ -52,10 +52,10 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_ur-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=3IS5vrI4VL4"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_ur-1.html",
+      "https://www.youtube.com/watch?v=3IS5vrI4VL4"
+    ]
   },
   {
     "id": "2022-advanced-ur-2",
@@ -79,11 +79,11 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_ur-2.html",
-      "website": "https://siv3d.github.io/ja-jp/",
-      "demoVideo": "https://www.youtube.com/watch?v=CL1ZEVtufBw"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_ur-2.html",
+      "https://www.youtube.com/watch?v=CL1ZEVtufBw",
+      "https://siv3d.github.io/ja-jp/"
+    ]
   },
   {
     "id": "2022-advanced-os-1",
@@ -111,11 +111,11 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_os-1.html",
-      "website": "https://one.learnwiz.jp/",
-      "demoVideo": "https://www.youtube.com/watch?v=znDihIyWbyQ"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_os-1.html",
+      "https://www.youtube.com/watch?v=znDihIyWbyQ",
+      "https://one.learnwiz.jp/"
+    ]
   },
   {
     "id": "2022-advanced-hd-1",
@@ -143,10 +143,10 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_hd-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=Z8c1kJfEx3Y"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_hd-1.html",
+      "https://www.youtube.com/watch?v=Z8c1kJfEx3Y"
+    ]
   },
   {
     "id": "2022-advanced-hn-1",
@@ -178,11 +178,11 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_hn-1.html",
-      "website": "https://www.zwin.dev/",
-      "demoVideo": "https://www.youtube.com/watch?v=yS6kJgclavs"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_hn-1.html",
+      "https://www.youtube.com/watch?v=yS6kJgclavs",
+      "https://www.zwin.dev/"
+    ]
   },
   {
     "id": "2022-advanced-hn-2",
@@ -214,10 +214,10 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_hn-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=yCyHEdJXr8I"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_hn-2.html",
+      "https://www.youtube.com/watch?v=yCyHEdJXr8I"
+    ]
   },
   {
     "id": "2022-advanced-fj-1",
@@ -245,9 +245,9 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_fj-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=VF9sEyxb3EA"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2022/gaiyou_fj-1.html",
+      "https://www.youtube.com/watch?v=VF9sEyxb3EA"
+    ]
   }
 ]

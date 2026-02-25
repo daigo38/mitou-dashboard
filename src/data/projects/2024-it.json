@@ -21,11 +21,11 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-ig-1.html",
-      "website": "https://apps.apple.com/jp/app/predictalk/id6476206495",
-      "demoVideo": "https://www.youtube.com/watch?v=LUG1fG5y1xo"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-ig-1.html",
+      "https://www.youtube.com/watch?v=LUG1fG5y1xo",
+      "https://apps.apple.com/jp/app/predictalk/id6476206495"
+    ]
   },
   {
     "id": "2024-it-ig-2",
@@ -45,10 +45,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-ig-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=kHRy4OIq5JE"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-ig-2.html",
+      "https://www.youtube.com/watch?v=kHRy4OIq5JE"
+    ]
   },
   {
     "id": "2024-it-ig-3",
@@ -76,10 +76,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-ig-3.html",
-      "demoVideo": "https://www.youtube.com/watch?v=qxnRlHZwxuI"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-ig-3.html",
+      "https://www.youtube.com/watch?v=qxnRlHZwxuI"
+    ]
   },
   {
     "id": "2024-it-in-1",
@@ -103,10 +103,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-in-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=pIi4T6_1vWM"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-in-1.html",
+      "https://www.youtube.com/watch?v=pIi4T6_1vWM"
+    ]
   },
   {
     "id": "2024-it-in-2",
@@ -134,10 +134,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-in-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=KSkFV1ALJHo"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-in-2.html",
+      "https://www.youtube.com/watch?v=KSkFV1ALJHo"
+    ]
   },
   {
     "id": "2024-it-in-3",
@@ -165,10 +165,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-in-3.html",
-      "demoVideo": "https://www.youtube.com/watch?v=gAKGn0zs4AE"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-in-3.html",
+      "https://www.youtube.com/watch?v=gAKGn0zs4AE"
+    ]
   },
   {
     "id": "2024-it-ok-1",
@@ -188,10 +188,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-ok-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=DNLurQkVA8s"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-ok-1.html",
+      "https://www.youtube.com/watch?v=DNLurQkVA8s"
+    ]
   },
   {
     "id": "2024-it-ok-2",
@@ -211,10 +211,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-ok-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=53rUKodOWPE"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-ok-2.html",
+      "https://www.youtube.com/watch?v=53rUKodOWPE"
+    ]
   },
   {
     "id": "2024-it-ok-3",
@@ -238,10 +238,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-ok-3.html",
-      "demoVideo": "https://www.youtube.com/watch?v=VMZI8by73as"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-ok-3.html",
+      "https://www.youtube.com/watch?v=VMZI8by73as"
+    ]
   },
   {
     "id": "2024-it-oc-1",
@@ -265,10 +265,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-oc-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=ZuuZMLYRMW8"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-oc-1.html",
+      "https://www.youtube.com/watch?v=ZuuZMLYRMW8"
+    ]
   },
   {
     "id": "2024-it-oc-2",
@@ -288,10 +288,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-oc-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=MrbRHXsaTeI"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-oc-2.html",
+      "https://www.youtube.com/watch?v=MrbRHXsaTeI"
+    ]
   },
   {
     "id": "2024-it-oc-3",
@@ -311,10 +311,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-oc-3.html",
-      "demoVideo": "https://www.youtube.com/watch?v=_vVV_mvjg5s"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-oc-3.html",
+      "https://www.youtube.com/watch?v=_vVV_mvjg5s"
+    ]
   },
   {
     "id": "2024-it-sg-1",
@@ -334,10 +334,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-sg-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=02JVAbefxi4"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-sg-1.html",
+      "https://www.youtube.com/watch?v=02JVAbefxi4"
+    ]
   },
   {
     "id": "2024-it-sg-2",
@@ -357,10 +357,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-sg-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=YG5ikc-X_Kg"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-sg-2.html",
+      "https://www.youtube.com/watch?v=YG5ikc-X_Kg"
+    ]
   },
   {
     "id": "2024-it-sg-3",
@@ -380,10 +380,10 @@
       }
     ],
     "budget": 14400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-sg-3.html",
-      "demoVideo": "https://www.youtube.com/watch?v=WB_PErdcf3w"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-sg-3.html",
+      "https://www.youtube.com/watch?v=WB_PErdcf3w"
+    ]
   },
   {
     "id": "2024-it-tk-1",
@@ -403,10 +403,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-tk-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=qckeZlz1am4"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-tk-1.html",
+      "https://www.youtube.com/watch?v=qckeZlz1am4"
+    ]
   },
   {
     "id": "2024-it-tk-2",
@@ -426,10 +426,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-tk-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=xSGXZGMO5oA"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-tk-2.html",
+      "https://www.youtube.com/watch?v=xSGXZGMO5oA"
+    ]
   },
   {
     "id": "2024-it-tk-3",
@@ -457,10 +457,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-tk-3.html",
-      "demoVideo": "https://www.youtube.com/watch?v=L8MG3noBca0"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-tk-3.html",
+      "https://www.youtube.com/watch?v=L8MG3noBca0"
+    ]
   },
   {
     "id": "2024-it-tn-1",
@@ -480,10 +480,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-tn-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=9YFLkEQfzfk"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-tn-1.html",
+      "https://www.youtube.com/watch?v=9YFLkEQfzfk"
+    ]
   },
   {
     "id": "2024-it-tn-2",
@@ -511,10 +511,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-tn-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=Vg4aPNoEdvA"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-tn-2.html",
+      "https://www.youtube.com/watch?v=Vg4aPNoEdvA"
+    ]
   },
   {
     "id": "2024-it-tn-3",
@@ -534,10 +534,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-tn-3.html",
-      "website": "https://github.com/Alignof/hikami",
-      "demoVideo": "https://www.youtube.com/watch?v=opx6b2ZmEOo"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-tn-3.html",
+      "https://www.youtube.com/watch?v=opx6b2ZmEOo",
+      "https://github.com/Alignof/hikami"
+    ]
   }
 ]

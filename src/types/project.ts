@@ -17,14 +17,6 @@ export interface Project {
     affiliation: string;
   }[];
   budget?: number;
-  links: {
-    ipa?: string;
-    github?: string;
-    website?: string;
-    demoVideo?: string;
-    portfolio?: string;
-    reportPdf?: string;
-    proposalPdf?: string;
-  };
+  links: string[];
   isSuperCreator?: boolean;
 }

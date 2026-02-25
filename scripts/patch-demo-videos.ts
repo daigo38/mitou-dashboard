@@ -631,12 +631,7 @@ interface Project {
   title: string;
   year: number;
   programType: string;
-  links: {
-    ipa?: string;
-    website?: string;
-    demoVideo?: string;
-    [key: string]: string | undefined;
-  };
+  links: string[];
   [key: string]: unknown;
 }
 
@@ -695,7 +690,10 @@ for (const playlist of playlists) {
     }
 
     if (bestMatch && bestScore >= 8) {
-      bestMatch.links.demoVideo = `https://www.youtube.com/watch?v=${video.id}`;
+      const ytUrl = `https://www.youtube.com/watch?v=${video.id}`;
+      if (!bestMatch.links.includes(ytUrl)) {
+        bestMatch.links.push(ytUrl);
+      }
       matched++;
       console.log(`  ✅ ${bestMatch.id}: ${video.title.slice(0, 40)}...`);
     } else {

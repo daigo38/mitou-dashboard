@@ -17,9 +17,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ig-1.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ig-1.html"
+    ]
   },
   {
     "id": "2025-it-ig-2",
@@ -43,9 +43,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ig-2.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ig-2.html"
+    ]
   },
   {
     "id": "2025-it-ig-3",
@@ -69,9 +69,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ig-3.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ig-3.html"
+    ]
   },
   {
     "id": "2025-it-in-1",
@@ -91,9 +91,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-in-1.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-in-1.html"
+    ]
   },
   {
     "id": "2025-it-in-2",
@@ -121,10 +121,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-in-2.html",
-      "website": "https://github.com/qubi-robot/qubi"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-in-2.html",
+      "https://github.com/qubi-robot/qubi"
+    ]
   },
   {
     "id": "2025-it-in-3",
@@ -144,9 +144,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-in-3.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-in-3.html"
+    ]
   },
   {
     "id": "2025-it-ok-1",
@@ -166,9 +166,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ok-1.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ok-1.html"
+    ]
   },
   {
     "id": "2025-it-ok-2",
@@ -188,9 +188,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ok-2.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ok-2.html"
+    ]
   },
   {
     "id": "2025-it-ok-3",
@@ -214,9 +214,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ok-3.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ok-3.html"
+    ]
   },
   {
     "id": "2025-it-oc-1",
@@ -236,10 +236,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-oc-1.html",
-      "website": "https://arstraverse.caric.jp/about"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-oc-1.html",
+      "https://arstraverse.caric.jp/about"
+    ]
   },
   {
     "id": "2025-it-oc-2",
@@ -259,9 +259,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-oc-2.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-oc-2.html"
+    ]
   },
   {
     "id": "2025-it-oc-3",
@@ -289,9 +289,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-oc-3.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-oc-3.html"
+    ]
   },
   {
     "id": "2025-it-sg-1",
@@ -311,9 +311,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-sg-1.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-sg-1.html"
+    ]
   },
   {
     "id": "2025-it-sg-2",
@@ -341,9 +341,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-sg-2.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-sg-2.html"
+    ]
   },
   {
     "id": "2025-it-sg-3",
@@ -363,10 +363,10 @@
       }
     ],
     "budget": 2000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-sg-3.html",
-      "website": "https://github.com/goatx/goat"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-sg-3.html",
+      "https://github.com/goatx/goat"
+    ]
   },
   {
     "id": "2025-it-tk-1",
@@ -394,10 +394,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tk-1.html",
-      "website": "https://floorp.app"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tk-1.html",
+      "https://floorp.app"
+    ]
   },
   {
     "id": "2025-it-tk-2",
@@ -417,10 +417,10 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tk-2.html",
-      "website": "https://github.com/tomohiron907/Strecs3D"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tk-2.html",
+      "https://github.com/tomohiron907/Strecs3D"
+    ]
   },
   {
     "id": "2025-it-tk-3",
@@ -440,9 +440,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tk-3.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tk-3.html"
+    ]
   },
   {
     "id": "2025-it-tn-1",
@@ -462,9 +462,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tn-1.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tn-1.html"
+    ]
   },
   {
     "id": "2025-it-tn-2",
@@ -492,9 +492,9 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tn-2.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tn-2.html"
+    ]
   },
   {
     "id": "2025-it-tn-3",
@@ -518,8 +518,8 @@
       }
     ],
     "budget": 2880000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tn-3.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tn-3.html"
+    ]
   }
 ]

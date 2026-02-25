@@ -29,10 +29,10 @@
       }
     ],
     "budget": 16000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-is-1.html",
-      "website": "https://rementia.jp"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-is-1.html",
+      "https://rementia.jp"
+    ]
   },
   {
     "id": "2025-advanced-ur-1",
@@ -60,10 +60,10 @@
       }
     ],
     "budget": 16000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-ur-1.html",
-      "website": "https://mirai-kogei.com/"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-ur-1.html",
+      "https://mirai-kogei.com/"
+    ]
   },
   {
     "id": "2025-advanced-ur-2",
@@ -83,10 +83,10 @@
       }
     ],
     "budget": 8000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-ur-2.html",
-      "website": "https://nodi3d.com/"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-ur-2.html",
+      "https://nodi3d.com/"
+    ]
   },
   {
     "id": "2025-advanced-kj-1",
@@ -110,10 +110,10 @@
       }
     ],
     "budget": 16000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-kj-1.html",
-      "github": "https://github.com/wf9a5m75"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-kj-1.html",
+      "https://github.com/wf9a5m75"
+    ]
   },
   {
     "id": "2025-advanced-kj-2",
@@ -141,9 +141,9 @@
       }
     ],
     "budget": 13962500,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-kj-2.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-kj-2.html"
+    ]
   },
   {
     "id": "2025-advanced-sd-1",
@@ -167,10 +167,10 @@
       }
     ],
     "budget": 16000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-sd-1.html",
-      "website": "https://www.digitaste.co.jp/"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-sd-1.html",
+      "https://www.digitaste.co.jp/"
+    ]
   },
   {
     "id": "2025-advanced-sd-2",
@@ -202,10 +202,10 @@
       }
     ],
     "budget": 16000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-sd-2.html",
-      "website": "https://100banch.com/projects/tol-nexus"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-sd-2.html",
+      "https://100banch.com/projects/tol-nexus"
+    ]
   },
   {
     "id": "2025-advanced-sd-3",
@@ -229,10 +229,10 @@
       }
     ],
     "budget": 16000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-sd-3.html",
-      "github": "https://github.com/myui"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-sd-3.html",
+      "https://github.com/myui"
+    ]
   },
   {
     "id": "2025-advanced-hd-1",
@@ -264,9 +264,9 @@
       }
     ],
     "budget": 16000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-hd-1.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-hd-1.html"
+    ]
   },
   {
     "id": "2025-advanced-hd-2",
@@ -302,12 +302,11 @@
       }
     ],
     "budget": 15500000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-hd-2.html",
-      "github": "https://github.com/yukimatJP",
-      "twitter": "https://x.com/yukimatJP",
-      "portfolio": "https://yukimat.jp/"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-hd-2.html",
+      "https://github.com/yukimatJP",
+      "https://yukimat.jp/"
+    ]
   },
   {
     "id": "2025-advanced-hn-1",
@@ -331,10 +330,10 @@
       }
     ],
     "budget": 16000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-hn-1.html",
-      "website": "https://halmonium.com"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-hn-1.html",
+      "https://halmonium.com"
+    ]
   },
   {
     "id": "2025-advanced-hn-2",
@@ -366,10 +365,10 @@
       }
     ],
     "budget": 16000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-hn-2.html",
-      "website": "https://nuimie.com"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-hn-2.html",
+      "https://nuimie.com"
+    ]
   },
   {
     "id": "2025-advanced-fj-1",
@@ -389,9 +388,9 @@
       }
     ],
     "budget": 7000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-fj-1.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-fj-1.html"
+    ]
   },
   {
     "id": "2025-advanced-fj-2",
@@ -419,11 +418,10 @@
       }
     ],
     "budget": 15522500,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-fj-2.html",
-      "twitter": "https://x.com/hibiki0529",
-      "portfolio": "https://stormstory.jp/"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-fj-2.html",
+      "https://stormstory.jp/"
+    ]
   },
   {
     "id": "2025-advanced-fj-3",
@@ -447,11 +445,11 @@
       }
     ],
     "budget": 16000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-fj-3.html",
-      "github": "https://github.com/ainozaki",
-      "portfolio": "https://ainozaki.github.io/"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-fj-3.html",
+      "https://github.com/ainozaki",
+      "https://ainozaki.github.io/"
+    ]
   },
   {
     "id": "2025-advanced-mk-1",
@@ -475,9 +473,9 @@
       }
     ],
     "budget": 16000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-mk-1.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-mk-1.html"
+    ]
   },
   {
     "id": "2025-advanced-mk-2",
@@ -505,9 +503,9 @@
       }
     ],
     "budget": 15000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-mk-2.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-mk-2.html"
+    ]
   },
   {
     "id": "2025-advanced-mr-1",
@@ -531,10 +529,9 @@
       }
     ],
     "budget": 16000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-mr-1.html",
-      "github": "https://github.com/satoki",
-      "twitter": "https://x.com/satoki00"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2025first/gaiyou-mr-1.html",
+      "https://github.com/satoki"
+    ]
   }
 ]

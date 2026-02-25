@@ -29,10 +29,10 @@
       }
     ],
     "budget": 14400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_is-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=Ch83Sm1ko4M"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_is-1.html",
+      "https://www.youtube.com/watch?v=Ch83Sm1ko4M"
+    ]
   },
   {
     "id": "2023-advanced-is-2",
@@ -64,10 +64,10 @@
       }
     ],
     "budget": 14400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_is-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=D_nVp5uPD68"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_is-2.html",
+      "https://www.youtube.com/watch?v=D_nVp5uPD68"
+    ]
   },
   {
     "id": "2023-advanced-ur-1",
@@ -107,10 +107,10 @@
       }
     ],
     "budget": 14400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_ur-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=qStEJ2czR8o"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_ur-1.html",
+      "https://www.youtube.com/watch?v=qStEJ2czR8o"
+    ]
   },
   {
     "id": "2023-advanced-ur-2",
@@ -134,9 +134,9 @@
       }
     ],
     "budget": 14400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_ur-2.html"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_ur-2.html"
+    ]
   },
   {
     "id": "2023-advanced-sd-1",
@@ -160,10 +160,10 @@
       }
     ],
     "budget": 11790000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_sd-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=kWTuLZE3cBo"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_sd-1.html",
+      "https://www.youtube.com/watch?v=kWTuLZE3cBo"
+    ]
   },
   {
     "id": "2023-advanced-sd-2",
@@ -187,10 +187,10 @@
       }
     ],
     "budget": 14400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_sd-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=oSAVsvv069s"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_sd-2.html",
+      "https://www.youtube.com/watch?v=oSAVsvv069s"
+    ]
   },
   {
     "id": "2023-advanced-hd-1",
@@ -222,11 +222,11 @@
       }
     ],
     "budget": 14400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_hd-1.html",
-      "website": "https://www.vasculoid.com",
-      "demoVideo": "https://www.youtube.com/watch?v=L40OTnuShGA"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_hd-1.html",
+      "https://www.youtube.com/watch?v=L40OTnuShGA",
+      "https://www.vasculoid.com"
+    ]
   },
   {
     "id": "2023-advanced-hd-2",
@@ -246,10 +246,10 @@
       }
     ],
     "budget": 7200000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_hd-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=qjwS8BGQfSY"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_hd-2.html",
+      "https://www.youtube.com/watch?v=qjwS8BGQfSY"
+    ]
   },
   {
     "id": "2023-advanced-hd-3",
@@ -273,10 +273,10 @@
       }
     ],
     "budget": 14400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_hd-3.html",
-      "demoVideo": "https://www.youtube.com/watch?v=6NguNPMOcNo"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_hd-3.html",
+      "https://www.youtube.com/watch?v=6NguNPMOcNo"
+    ]
   },
   {
     "id": "2023-advanced-hn-1",
@@ -308,10 +308,10 @@
       }
     ],
     "budget": 13608000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_hn-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=0OQiOohXLWc"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_hn-1.html",
+      "https://www.youtube.com/watch?v=0OQiOohXLWc"
+    ]
   },
   {
     "id": "2023-advanced-hn-2",
@@ -339,10 +339,10 @@
       }
     ],
     "budget": 14400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_hn-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=jLF5ofdhlH8"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_hn-2.html",
+      "https://www.youtube.com/watch?v=jLF5ofdhlH8"
+    ]
   },
   {
     "id": "2023-advanced-hn-3",
@@ -370,10 +370,10 @@
       }
     ],
     "budget": 14400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_hn-3.html",
-      "demoVideo": "https://www.youtube.com/watch?v=ByiXYLxQqx8"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_hn-3.html",
+      "https://www.youtube.com/watch?v=ByiXYLxQqx8"
+    ]
   },
   {
     "id": "2023-advanced-fj-1",
@@ -401,10 +401,10 @@
       }
     ],
     "budget": 14400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_fj-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=hvNlWYvYofs"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_fj-1.html",
+      "https://www.youtube.com/watch?v=hvNlWYvYofs"
+    ]
   },
   {
     "id": "2023-advanced-fj-2",
@@ -428,11 +428,11 @@
       }
     ],
     "budget": 14400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_fj-2.html",
-      "website": "https://bonsaistudio.jp/",
-      "demoVideo": "https://www.youtube.com/watch?v=iOrjym3wjF0"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_fj-2.html",
+      "https://www.youtube.com/watch?v=iOrjym3wjF0",
+      "https://bonsaistudio.jp/"
+    ]
   },
   {
     "id": "2023-advanced-mk-1",
@@ -456,10 +456,10 @@
       }
     ],
     "budget": 14400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_mk-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=PyYKb5-pcas"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_mk-1.html",
+      "https://www.youtube.com/watch?v=PyYKb5-pcas"
+    ]
   },
   {
     "id": "2023-advanced-mk-2",
@@ -483,9 +483,9 @@
       }
     ],
     "budget": 9999000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_mk-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=aSNLYxtxvX0"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/gaiyou_mk-2.html",
+      "https://www.youtube.com/watch?v=aSNLYxtxvX0"
+    ]
   }
 ]

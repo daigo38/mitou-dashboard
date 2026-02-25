@@ -29,10 +29,10 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_i-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=JteJim-8zFs"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_i-1.html",
+      "https://www.youtube.com/watch?v=JteJim-8zFs"
+    ]
   },
   {
     "id": "2020-advanced-i-2",
@@ -68,10 +68,10 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_i-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=TZBAFXr-AbQ"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_i-2.html",
+      "https://www.youtube.com/watch?v=TZBAFXr-AbQ"
+    ]
   },
   {
     "id": "2020-advanced-u-1",
@@ -91,11 +91,11 @@
       }
     ],
     "budget": 6400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_u-1.html",
-      "website": "https://strvsn.net/",
-      "demoVideo": "https://www.youtube.com/watch?v=wVCEuv71qaA"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_u-1.html",
+      "https://www.youtube.com/watch?v=wVCEuv71qaA",
+      "https://strvsn.net/"
+    ]
   },
   {
     "id": "2020-advanced-u-2",
@@ -119,11 +119,11 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_u-2.html",
-      "website": "https://yanekara.jp/",
-      "demoVideo": "https://www.youtube.com/watch?v=cGTmGnl5EMw"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_u-2.html",
+      "https://www.youtube.com/watch?v=cGTmGnl5EMw",
+      "https://yanekara.jp/"
+    ]
   },
   {
     "id": "2020-advanced-o-1",
@@ -155,10 +155,10 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_o-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=vn1W0lL6q3A"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_o-1.html",
+      "https://www.youtube.com/watch?v=vn1W0lL6q3A"
+    ]
   },
   {
     "id": "2020-advanced-hr-1",
@@ -182,11 +182,11 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_hr-1.html",
-      "website": "https://telorain.com/",
-      "demoVideo": "https://www.youtube.com/watch?v=hFEwSelAoxo"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_hr-1.html",
+      "https://www.youtube.com/watch?v=hFEwSelAoxo",
+      "https://telorain.com/"
+    ]
   },
   {
     "id": "2020-advanced-hr-2",
@@ -210,10 +210,10 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_hr-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=jALHmYUz4mE"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_hr-2.html",
+      "https://www.youtube.com/watch?v=jALHmYUz4mE"
+    ]
   },
   {
     "id": "2020-advanced-hr-3",
@@ -233,10 +233,10 @@
       }
     ],
     "budget": 6400000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_hr-3.html",
-      "demoVideo": "https://www.youtube.com/watch?v=GaAMzPrzdDg"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_hr-3.html",
+      "https://www.youtube.com/watch?v=GaAMzPrzdDg"
+    ]
   },
   {
     "id": "2020-advanced-fj-1",
@@ -260,10 +260,10 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_fj-1.html",
-      "demoVideo": "https://www.youtube.com/watch?v=rPlwnxZ0Y-I"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_fj-1.html",
+      "https://www.youtube.com/watch?v=rPlwnxZ0Y-I"
+    ]
   },
   {
     "id": "2020-advanced-fj-2",
@@ -291,9 +291,9 @@
       }
     ],
     "budget": 10000000,
-    "links": {
-      "ipa": "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_fj-2.html",
-      "demoVideo": "https://www.youtube.com/watch?v=_N5GFo7YyxA"
-    }
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2020/gaiyou_fj-2.html",
+      "https://www.youtube.com/watch?v=_N5GFo7YyxA"
+    ]
   }
 ]

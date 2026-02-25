@@ -18,12 +18,6 @@ interface PM {
   affiliation: string;
 }
 
-interface ProjectLinks {
-  ipa: string;
-  website?: string;
-  demoVideo?: string;
-}
-
 interface Project {
   id: string;
   title: string;
@@ -34,7 +28,7 @@ interface Project {
   pm: PM;
   creators: Creator[];
   budget: number;
-  links: ProjectLinks;
+  links: string[];
 }
 
 // --- CLI Argument Parsing ---
@@ -403,10 +397,7 @@ async function main() {
           ? detail.creators
           : entry.creatorNames.map((n) => ({ name: n, affiliation: "" })),
       budget: detail.budget,
-      links: {
-        ipa: fullUrl,
-        ...(detail.website ? { website: detail.website } : {}),
-      },
+      links: [fullUrl, ...(detail.website ? [detail.website] : [])],
     };
 
     projects.push(project);
@@ -502,7 +493,9 @@ async function handleDemoDay(
         yt.text.includes(project.title.slice(0, 15)) ||
         project.title.includes(yt.text.slice(0, 15))
       ) {
-        project.links.demoVideo = yt.url;
+        if (!project.links.includes(yt.url)) {
+          project.links.push(yt.url);
+        }
         matched++;
         console.log(`  ✅ Matched: ${project.id} → ${yt.url}`);
         break;
@@ -514,8 +507,9 @@ async function handleDemoDay(
   if (matched === 0 && youtubeLinks.length <= 2) {
     console.log("  No exact matches. Assigning stream URL to all projects...");
     for (const project of projects) {
-      if (!project.links.demoVideo) {
-        project.links.demoVideo = youtubeLinks[0].url;
+      const url = youtubeLinks[0].url;
+      if (!project.links.includes(url)) {
+        project.links.push(url);
       }
     }
     matched = projects.length;
