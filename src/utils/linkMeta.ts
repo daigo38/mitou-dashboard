@@ -27,6 +27,29 @@ const rules: { test: (url: string) => boolean; meta: LinkMeta }[] = [
     },
   },
   {
+    test: (url) => url.includes("x.com") || url.includes("twitter.com"),
+    meta: {
+      label: "X",
+      className: "bg-gray-900 text-white hover:bg-black",
+    },
+  },
+  {
+    test: (url) => url.includes("zenn.dev"),
+    meta: {
+      label: "Zenn",
+      className:
+        "bg-blue-50 text-blue-600 hover:bg-blue-100 hover:text-blue-800",
+    },
+  },
+  {
+    test: (url) => url.includes("qiita.com"),
+    meta: {
+      label: "Qiita",
+      className:
+        "bg-green-50 text-green-600 hover:bg-green-100 hover:text-green-800",
+    },
+  },
+  {
     test: (url) => url.endsWith(".pdf"),
     meta: {
       label: "PDF",

@@ -13,7 +13,8 @@
     "creators": [
       {
         "name": "山本 愛優美",
-        "affiliation": "慶應義塾大学環境情報学部"
+        "affiliation": "慶應義塾大学環境情報学部",
+        "links": ["https://x.com/yamampo"]
       },
       {
         "name": "西田 翔平",
@@ -71,7 +72,8 @@
     "creators": [
       {
         "name": "鈴木 遼",
-        "affiliation": "フリーランス"
+        "affiliation": "フリーランス",
+        "links": ["https://github.com/Reputeless", "https://x.com/Reputeless"]
       },
       {
         "name": "吉崎 幸樹",
@@ -99,7 +101,8 @@
     "creators": [
       {
         "name": "中條 麟太郎",
-        "affiliation": "東京大学文学部人文学科心理学専修／株式会社LearnWiz"
+        "affiliation": "東京大学文学部人文学科心理学専修／株式会社LearnWiz",
+        "links": ["https://x.com/rintaro_chujo", "https://www.chujo.me/"]
       },
       {
         "name": "岩田 風多",
@@ -198,7 +201,8 @@
     "creators": [
       {
         "name": "樋口 翔太",
-        "affiliation": "筑波大学理工情報生命学術院 システム情報工学研究群知能機能システム学位プログラム"
+        "affiliation": "筑波大学理工情報生命学術院 システム情報工学研究群知能機能システム学位プログラム",
+        "links": ["https://x.com/197sh0ta"]
       },
       {
         "name": "山根 広暉",

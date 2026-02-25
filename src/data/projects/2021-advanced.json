@@ -40,7 +40,8 @@
     "creators": [
       {
         "name": "野城 菜帆",
-        "affiliation": "慶應義塾大学大学院 理工学研究科"
+        "affiliation": "慶應義塾大学大学院 理工学研究科",
+        "links": ["https://x.com/nahoyashiro"]
       },
       {
         "name": "早田 圭之介",
@@ -80,15 +81,18 @@
     "creators": [
       {
         "name": "藤田 旭洋",
-        "affiliation": "東京大学大学院 工学系研究科航空宇宙工学専攻"
+        "affiliation": "東京大学大学院 工学系研究科航空宇宙工学専攻",
+        "links": ["https://x.com/afujitabz"]
       },
       {
         "name": "大熊 拓海",
-        "affiliation": "東京大学大学院 情報理工学系研究科"
+        "affiliation": "東京大学大学院 情報理工学系研究科",
+        "links": ["https://x.com/airion_ohkuma"]
       },
       {
         "name": "村井 輝",
-        "affiliation": "東京大学大学院 総合文化研究科広域科学専攻"
+        "affiliation": "東京大学大学院 総合文化研究科広域科学専攻",
+        "links": ["https://x.com/murai_bluezone"]
       }
     ],
     "budget": 10000000,
@@ -111,7 +115,8 @@
     "creators": [
       {
         "name": "大渕 雄生",
-        "affiliation": "筑波大学 情報学群 情報メディア創成学類 3年"
+        "affiliation": "筑波大学 情報学群 情報メディア創成学類 3年",
+        "links": ["https://github.com/ObuchiYuki", "https://x.com/obuchi_yuki"]
       }
     ],
     "budget": 6400000,
@@ -162,11 +167,13 @@
     "creators": [
       {
         "name": "野﨑 大幹",
-        "affiliation": "株式会社SoftRoid"
+        "affiliation": "株式会社SoftRoid",
+        "links": ["https://x.com/hiroki_nozaki"]
       },
       {
         "name": "吉田 岳人",
-        "affiliation": "株式会社SoftRoid"
+        "affiliation": "株式会社SoftRoid",
+        "links": ["https://x.com/yoshida_taketo"]
       },
       {
         "name": "青木 佑一郎",
@@ -174,7 +181,8 @@
       },
       {
         "name": "山田 駿",
-        "affiliation": "株式会社SoftRoid"
+        "affiliation": "株式会社SoftRoid",
+        "links": ["https://x.com/_suguru_yamada"]
       }
     ],
     "budget": 10000000,

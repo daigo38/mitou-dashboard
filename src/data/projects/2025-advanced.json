@@ -79,7 +79,8 @@
     "creators": [
       {
         "name": "中村 将達",
-        "affiliation": "DETOR合同会社代表社員"
+        "affiliation": "DETOR合同会社代表社員",
+        "links": ["https://github.com/mattatz", "https://x.com/mattatz", "https://mattatz.org/"]
       }
     ],
     "budget": 8000000,
@@ -106,7 +107,8 @@
       },
       {
         "name": "勝又 雅史",
-        "affiliation": "MK GeekLab LLC"
+        "affiliation": "MK GeekLab LLC",
+        "links": ["https://github.com/wf9a5m75"]
       }
     ],
     "budget": 16000000,
@@ -221,7 +223,8 @@
     "creators": [
       {
         "name": "油井 誠",
-        "affiliation": "トレジャーデータ株式会社 シニアプリンシパルエンジニア"
+        "affiliation": "トレジャーデータ株式会社 シニアプリンシパルエンジニア",
+        "links": ["https://github.com/myui"]
       },
       {
         "name": "渡辺 博之",
@@ -252,7 +255,8 @@
       },
       {
         "name": "長谷川 泰斗",
-        "affiliation": "筑波大学 人間総合科学学術院 人間総合科学研究群／フラー株式会社 デザイングループ"
+        "affiliation": "筑波大学 人間総合科学学術院 人間総合科学研究群／フラー株式会社 デザイングループ",
+        "links": ["https://x.com/taito_hasegawa", "https://taito-hasegawa.com/"]
       },
       {
         "name": "中川 飛来",
@@ -286,11 +290,13 @@
       },
       {
         "name": "松田 裕貴",
-        "affiliation": "岡山大学学術研究院 環境生命自然科学学域"
+        "affiliation": "岡山大学学術研究院 環境生命自然科学学域",
+        "links": ["https://github.com/yukimatJP", "https://yukimat.jp/", "https://x.com/yukimatJP"]
       },
       {
         "name": "松井 智一",
-        "affiliation": "奈良先端科学技術大学院大学先端科学技術研究科情報科学領域"
+        "affiliation": "奈良先端科学技術大学院大学先端科学技術研究科情報科学領域",
+        "links": ["https://researchmap.jp/tomokazu.matsui"]
       },
       {
         "name": "猪口 翔一朗",
@@ -298,7 +304,8 @@
       },
       {
         "name": "安本 慶一",
-        "affiliation": "奈良先端科学技術大学院大学先端科学技術研究科情報科学領域"
+        "affiliation": "奈良先端科学技術大学院大学先端科学技術研究科情報科学領域",
+        "links": ["https://researchmap.jp/keiichi.yasumoto"]
       }
     ],
     "budget": 15500000,
@@ -349,7 +356,8 @@
     "creators": [
       {
         "name": "篠田 和宏",
-        "affiliation": "東京大学大学院学際情報学府学際情報学専攻"
+        "affiliation": "東京大学大学院学際情報学府学際情報学専攻",
+        "links": ["https://x.com/kcfnen1916", "https://kcfnen1916.com/"]
       },
       {
         "name": "平林 晴馬",
@@ -437,11 +445,13 @@
     "creators": [
       {
         "name": "野崎 愛",
-        "affiliation": "東京大学大学院情報理工学系研究科システム情報学専攻"
+        "affiliation": "東京大学大学院情報理工学系研究科システム情報学専攻",
+        "links": ["https://github.com/ainozaki", "https://ainozaki.github.io/"]
       },
       {
         "name": "上田 蒼一朗",
-        "affiliation": "京都大学大学院情報学研究科"
+        "affiliation": "京都大学大学院情報学研究科",
+        "links": ["https://github.com/saza-ku", "https://x.com/saza_ku"]
       }
     ],
     "budget": 16000000,
@@ -465,7 +475,8 @@
     "creators": [
       {
         "name": "薄井 光生",
-        "affiliation": "株式会社ビルオプト代表取締役"
+        "affiliation": "株式会社ビルオプト代表取締役",
+        "links": ["https://github.com/MitsukiUsui", "https://www.mitsukiusui.com/"]
       },
       {
         "name": "竹内 誠一郎",
@@ -521,11 +532,13 @@
     "creators": [
       {
         "name": "辻󠄀 知希",
-        "affiliation": "株式会社リチェルカセキュリティ セキュリティサービス部／株式会社Ikotas Labs"
+        "affiliation": "株式会社リチェルカセキュリティ セキュリティサービス部／株式会社Ikotas Labs",
+        "links": ["https://github.com/satoki"]
       },
       {
         "name": "杉山 優一",
-        "affiliation": "株式会社リチェルカセキュリティ セキュリティサービス部／東京大学大学院 情報理工学系研究科 創造情報学専攻"
+        "affiliation": "株式会社リチェルカセキュリティ セキュリティサービス部／東京大学大学院 情報理工学系研究科 創造情報学専攻",
+        "links": ["https://github.com/mmxsrup", "https://x.com/mmxsrup"]
       }
     ],
     "budget": 16000000,

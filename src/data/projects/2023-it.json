@@ -13,7 +13,8 @@
     "creators": [
       {
         "name": "王 方成",
-        "affiliation": "東京大学理学部物理学科"
+        "affiliation": "東京大学理学部物理学科",
+        "links": ["https://x.com/houseiwang"]
       },
       {
         "name": "松尾 勇吾",
@@ -21,7 +22,8 @@
       },
       {
         "name": "染谷 大河",
-        "affiliation": "東京大学総合文化研究科言語情報科学専攻"
+        "affiliation": "東京大学総合文化研究科言語情報科学専攻",
+        "links": ["https://github.com/agiats", "https://x.com/agiats_football"]
       }
     ],
     "budget": 2736000,
@@ -90,7 +92,8 @@
     "creators": [
       {
         "name": "加藤 路瑛",
-        "affiliation": "学校法人角川ドワンゴ学園S高等学校/株式会社クリスタルロード代表取締役社長"
+        "affiliation": "学校法人角川ドワンゴ学園S高等学校/株式会社クリスタルロード代表取締役社長",
+        "links": ["https://x.com/crystalroad2006"]
       },
       {
         "name": "安東 鷹亮",
@@ -121,7 +124,8 @@
     "creators": [
       {
         "name": "泉 和哉",
-        "affiliation": "筑波大学人間総合科学学術院人間総合科学研究群情報学学位プログラム"
+        "affiliation": "筑波大学人間総合科学学術院人間総合科学研究群情報学学位プログラム",
+        "links": ["https://github.com/shikibu9419", "https://kazuyaizumi.com/"]
       }
     ],
     "budget": 2736000,
@@ -190,7 +194,8 @@
     "creators": [
       {
         "name": "石戸谷 由梨",
-        "affiliation": "お茶の水女子大学理学部情報科学科"
+        "affiliation": "お茶の水女子大学理学部情報科学科",
+        "links": ["https://x.com/ishity__"]
       },
       {
         "name": "金城 拓登",
@@ -288,7 +293,8 @@
     "creators": [
       {
         "name": "子安 竜司",
-        "affiliation": "北海道大学農学院生産フロンティアコース"
+        "affiliation": "北海道大学農学院生産フロンティアコース",
+        "links": ["https://github.com/Ryujikoyasu"]
       }
     ],
     "budget": 2736000,
@@ -334,11 +340,13 @@
     "creators": [
       {
         "name": "上田 蒼一朗",
-        "affiliation": "京都大学工学部情報学科"
+        "affiliation": "京都大学工学部情報学科",
+        "links": ["https://github.com/saza-ku", "https://saza.dev"]
       },
       {
         "name": "野崎 愛",
-        "affiliation": "東京大学情報理工学系研究科システム情報学専攻"
+        "affiliation": "東京大学情報理工学系研究科システム情報学専攻",
+        "links": ["https://github.com/ainozaki"]
       }
     ],
     "budget": 2736000,
@@ -392,7 +400,8 @@
     "creators": [
       {
         "name": "芝山 駿介",
-        "affiliation": "早稲田大学先進理工学部物理学科"
+        "affiliation": "早稲田大学先進理工学部物理学科",
+        "links": ["https://github.com/mtshiba", "https://mtshiba.github.io/"]
       }
     ],
     "budget": 2736000,
@@ -416,7 +425,8 @@
     "creators": [
       {
         "name": "長谷川 泰斗",
-        "affiliation": "筑波大学人間総合科学学術院人間総合科学研究科/フラー株式会社"
+        "affiliation": "筑波大学人間総合科学学術院人間総合科学研究科/フラー株式会社",
+        "links": ["https://taito-hasegawa.com/", "https://x.com/taito_hasegawa"]
       }
     ],
     "budget": 2736000,
@@ -535,7 +545,8 @@
     "creators": [
       {
         "name": "今村 翔太",
-        "affiliation": "慶應義塾大学環境情報学部環境情報学科"
+        "affiliation": "慶應義塾大学環境情報学部環境情報学科",
+        "links": ["https://github.com/caprese-project"]
       }
     ],
     "budget": 2736000,

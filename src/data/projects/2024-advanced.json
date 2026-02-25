@@ -87,11 +87,13 @@
     "creators": [
       {
         "name": "大日方 伸",
-        "affiliation": "株式会社積彩代表取締役"
+        "affiliation": "株式会社積彩代表取締役",
+        "links": ["https://x.com/obi_obita"]
       },
       {
         "name": "堀川 淳一郎",
-        "affiliation": "Orange Jellies代表社員／京都工芸繊維大学特任研究員／東京大学特任研究員"
+        "affiliation": "Orange Jellies代表社員／京都工芸繊維大学特任研究員／東京大学特任研究員",
+        "links": ["https://github.com/jhorikawa"]
       }
     ],
     "budget": 15040000,
@@ -149,7 +151,8 @@
     "creators": [
       {
         "name": "比留間 大地",
-        "affiliation": "フリーランス"
+        "affiliation": "フリーランス",
+        "links": ["https://github.com/maruhidd", "https://x.com/maruhi_dd"]
       }
     ],
     "budget": 7520000,
@@ -451,11 +454,13 @@
     "creators": [
       {
         "name": "野崎 智弘",
-        "affiliation": "株式会社Hazumi 代表取締役"
+        "affiliation": "株式会社Hazumi 代表取締役",
+        "links": ["https://github.com/nztm", "https://x.com/nztm_tw"]
       },
       {
         "name": "三橋 優希",
-        "affiliation": "株式会社Hazumi 取締役／多摩美術大学美術学部情報デザイン学科情報デザインコース"
+        "affiliation": "株式会社Hazumi 取締役／多摩美術大学美術学部情報デザイン学科情報デザインコース",
+        "links": ["https://github.com/yuki384", "https://x.com/YukiMihashi"]
       }
     ],
     "budget": 15040000,
@@ -513,11 +518,13 @@
     "creators": [
       {
         "name": "スコット アトム",
-        "affiliation": "名古屋大学大学院情報学研究科知能システム学専攻"
+        "affiliation": "名古屋大学大学院情報学研究科知能システム学専攻",
+        "links": ["https://github.com/atomscott", "https://x.com/AtomJamesScott"]
       },
       {
         "name": "内田 郁真",
-        "affiliation": "筑波大学大学院理工情報生命学術院システム情報工学研究群エンパワーメント情報学プログラム"
+        "affiliation": "筑波大学大学院理工情報生命学術院システム情報工学研究群エンパワーメント情報学プログラム",
+        "links": ["https://x.com/ikuma_uchida18"]
       },
       {
         "name": "セレスタ プラギャン",
@@ -619,7 +626,8 @@
     "creators": [
       {
         "name": "大嶽 匡俊",
-        "affiliation": "東京大学大学院情報理工学系研究科コンピュータ科学専攻"
+        "affiliation": "東京大学大学院情報理工学系研究科コンピュータ科学専攻",
+        "links": ["https://x.com/LangProc"]
       },
       {
         "name": "加藤 大地",

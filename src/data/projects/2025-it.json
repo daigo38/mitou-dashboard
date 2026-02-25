@@ -18,7 +18,8 @@
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ig-1.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ig-1.html",
+      "https://www.youtube.com/live/ZKg-w93ez5U"
     ]
   },
   {
@@ -39,12 +40,14 @@
       },
       {
         "name": "柴田 登麻",
-        "affiliation": "北海道大学 工学部情報エレクトロニクス学科"
+        "affiliation": "北海道大学 工学部情報エレクトロニクス学科",
+        "links": ["https://x.com/toma3desuyo"]
       }
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ig-2.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ig-2.html",
+      "https://www.youtube.com/live/ZKg-w93ez5U"
     ]
   },
   {
@@ -70,7 +73,8 @@
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ig-3.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ig-3.html",
+      "https://www.youtube.com/live/ZKg-w93ez5U"
     ]
   },
   {
@@ -92,7 +96,8 @@
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-in-1.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-in-1.html",
+      "https://www.youtube.com/live/ZKg-w93ez5U"
     ]
   },
   {
@@ -123,6 +128,7 @@
     "budget": 2880000,
     "links": [
       "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-in-2.html",
+      "https://www.youtube.com/live/ZKg-w93ez5U",
       "https://github.com/qubi-robot/qubi"
     ]
   },
@@ -145,7 +151,8 @@
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-in-3.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-in-3.html",
+      "https://www.youtube.com/live/ZKg-w93ez5U"
     ]
   },
   {
@@ -167,7 +174,8 @@
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ok-1.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ok-1.html",
+      "https://www.youtube.com/live/VLJ0M_CRDFE"
     ]
   },
   {
@@ -189,7 +197,8 @@
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ok-2.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ok-2.html",
+      "https://www.youtube.com/live/VLJ0M_CRDFE"
     ]
   },
   {
@@ -215,7 +224,8 @@
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ok-3.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-ok-3.html",
+      "https://www.youtube.com/live/VLJ0M_CRDFE"
     ]
   },
   {
@@ -232,12 +242,14 @@
     "creators": [
       {
         "name": "松野 仁志",
-        "affiliation": "東京都立大学 大学院システムデザイン研究科 インダストリアルアート学域"
+        "affiliation": "東京都立大学 大学院システムデザイン研究科 インダストリアルアート学域",
+        "links": ["https://x.com/matt_hitoshi"]
       }
     ],
     "budget": 2880000,
     "links": [
       "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-oc-1.html",
+      "https://www.youtube.com/live/ZKg-w93ez5U",
       "https://arstraverse.caric.jp/about"
     ]
   },
@@ -260,7 +272,8 @@
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-oc-2.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-oc-2.html",
+      "https://www.youtube.com/live/ZKg-w93ez5U"
     ]
   },
   {
@@ -290,7 +303,8 @@
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-oc-3.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-oc-3.html",
+      "https://www.youtube.com/live/ZKg-w93ez5U"
     ]
   },
   {
@@ -307,12 +321,14 @@
     "creators": [
       {
         "name": "田村 来希",
-        "affiliation": "京都大学 大学院情報学研究科 社会情報学コース"
+        "affiliation": "京都大学 大学院情報学研究科 社会情報学コース",
+        "links": ["https://github.com/tamaroning"]
       }
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-sg-1.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-sg-1.html",
+      "https://www.youtube.com/live/VLJ0M_CRDFE"
     ]
   },
   {
@@ -342,7 +358,8 @@
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-sg-2.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-sg-2.html",
+      "https://www.youtube.com/live/VLJ0M_CRDFE"
     ]
   },
   {
@@ -365,6 +382,7 @@
     "budget": 2000000,
     "links": [
       "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-sg-3.html",
+      "https://www.youtube.com/live/VLJ0M_CRDFE",
       "https://github.com/goatx/goat"
     ]
   },
@@ -386,7 +404,8 @@
       },
       {
         "name": "浅野 凌輔",
-        "affiliation": "東洋大学 情報連携学部 情報連携学科"
+        "affiliation": "東洋大学 情報連携学部 情報連携学科",
+        "links": ["https://github.com/surapunoyousei"]
       },
       {
         "name": "鮎澤 颯人",
@@ -396,6 +415,7 @@
     "budget": 2880000,
     "links": [
       "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tk-1.html",
+      "https://www.youtube.com/live/ZKg-w93ez5U",
       "https://floorp.app"
     ]
   },
@@ -413,12 +433,14 @@
     "creators": [
       {
         "name": "谷口 朝洋",
-        "affiliation": "慶應義塾大学 大学院政策メディア研究科 政策メディア専攻"
+        "affiliation": "慶應義塾大学 大学院政策メディア研究科 政策メディア専攻",
+        "links": ["https://github.com/tomohiron907", "https://x.com/tamutamu3D"]
       }
     ],
     "budget": 2880000,
     "links": [
       "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tk-2.html",
+      "https://www.youtube.com/live/VLJ0M_CRDFE",
       "https://github.com/tomohiron907/Strecs3D"
     ]
   },
@@ -441,7 +463,8 @@
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tk-3.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tk-3.html",
+      "https://www.youtube.com/live/ZKg-w93ez5U"
     ]
   },
   {
@@ -463,7 +486,8 @@
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tn-1.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tn-1.html",
+      "https://www.youtube.com/live/VLJ0M_CRDFE"
     ]
   },
   {
@@ -493,7 +517,8 @@
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tn-2.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tn-2.html",
+      "https://www.youtube.com/live/VLJ0M_CRDFE"
     ]
   },
   {
@@ -519,7 +544,8 @@
     ],
     "budget": 2880000,
     "links": [
-      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tn-3.html"
+      "https://www.ipa.go.jp/jinzai/mitou/it/2025/gaiyou-tn-3.html",
+      "https://www.youtube.com/live/VLJ0M_CRDFE"
     ]
   }
 ]

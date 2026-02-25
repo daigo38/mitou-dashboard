@@ -36,7 +36,8 @@
     "creators": [
       {
         "name": "大渕 雄生",
-        "affiliation": "筑波大学 情報学群 情報メディア創成学類"
+        "affiliation": "筑波大学 情報学群 情報メディア創成学類",
+        "links": ["https://github.com/ObuchiYuki", "https://x.com/obuchi_yuki"]
       }
     ],
     "budget": 2736000,
@@ -63,7 +64,8 @@
       },
       {
         "name": "新田 洸平",
-        "affiliation": "筑波大学 情報学群 知識情報・図書館学類"
+        "affiliation": "筑波大学 情報学群 知識情報・図書館学類",
+        "links": ["https://github.com/kohei-shinden", "https://x.com/KoheiShinden"]
       }
     ],
     "budget": 2736000,
@@ -85,7 +87,8 @@
     "creators": [
       {
         "name": "青山 柊太朗",
-        "affiliation": "ぐんま国際アカデミー 高等部"
+        "affiliation": "ぐんま国際アカデミー 高等部",
+        "links": ["https://github.com/blu3mo", "https://x.com/blu3mo"]
       }
     ],
     "budget": 1520000,
@@ -216,7 +219,8 @@
     "creators": [
       {
         "name": "和田 優斗",
-        "affiliation": "横浜市立横浜サイエンスフロンティア高等学校"
+        "affiliation": "横浜市立横浜サイエンスフロンティア高等学校",
+        "links": ["https://x.com/kyoto_ysfh"]
       }
     ],
     "budget": 2736000,
@@ -239,7 +243,8 @@
     "creators": [
       {
         "name": "田中 叡",
-        "affiliation": "電気通信大学 情報理工学研究科 情報学専攻 博士前期課程2年"
+        "affiliation": "電気通信大学 情報理工学研究科 情報学専攻 博士前期課程2年",
+        "links": ["https://github.com/tana"]
       }
     ],
     "budget": 2736000,
@@ -263,7 +268,8 @@
     "creators": [
       {
         "name": "篠田 和宏",
-        "affiliation": "東京大学 工学部 電子情報工学科"
+        "affiliation": "東京大学 工学部 電子情報工学科",
+        "links": ["https://x.com/kcfnen1916", "https://kcfnen1916.com/profile"]
       },
       {
         "name": "佐野 由季",
@@ -299,7 +305,8 @@
     "creators": [
       {
         "name": "上田 侑真",
-        "affiliation": "慶應義塾大学 総合政策学部 総合政策学科"
+        "affiliation": "慶應義塾大学 総合政策学部 総合政策学科",
+        "links": ["https://github.com/yumaueda"]
       }
     ],
     "budget": 2736000,
@@ -322,7 +329,8 @@
     "creators": [
       {
         "name": "妹尾 卓磨",
-        "affiliation": "慶應義塾大学 大学院 理工学研究科 博士後期課程1年"
+        "affiliation": "慶應義塾大学 大学院 理工学研究科 博士後期課程1年",
+        "links": ["https://github.com/takuseno"]
       }
     ],
     "budget": 2736000,
@@ -372,7 +380,8 @@
       },
       {
         "name": "中村 龍矢",
-        "affiliation": "株式会社LayerX 執行役員"
+        "affiliation": "株式会社LayerX 執行役員",
+        "links": ["https://github.com/nrryuya", "https://x.com/nrryuya_jp"]
       }
     ],
     "budget": 2736000,

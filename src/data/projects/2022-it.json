@@ -36,11 +36,13 @@
     "creators": [
       {
         "name": "内田 郁真",
-        "affiliation": "筑波大学大学院理工情報生命学術院 システム情報工学研究群"
+        "affiliation": "筑波大学大学院理工情報生命学術院 システム情報工学研究群",
+        "links": ["https://x.com/ikuma_uchida18"]
       },
       {
         "name": "スコット アトム",
-        "affiliation": "筑波大学大学院理工情報生命学術院 システム情報工学研究群"
+        "affiliation": "筑波大学大学院理工情報生命学術院 システム情報工学研究群",
+        "links": ["https://github.com/atomscott", "https://x.com/AtomJamesScott"]
       }
     ],
     "budget": 2736000,
@@ -63,7 +65,8 @@
     "creators": [
       {
         "name": "皆川 達也",
-        "affiliation": "筑波大学大学院人間総合科学学術院 人間総合科学研究群情報学学位プログラム博士前期課程"
+        "affiliation": "筑波大学大学院人間総合科学学術院 人間総合科学研究群情報学学位プログラム博士前期課程",
+        "links": ["https://github.com/cha84rakanal", "https://x.com/cha84rakanal"]
       }
     ],
     "budget": 2736000,
@@ -306,7 +309,8 @@
     "creators": [
       {
         "name": "阿部 優樹",
-        "affiliation": "北海道大学大学院情報科学院 情報科学専攻情報理工学コース"
+        "affiliation": "北海道大学大学院情報科学院 情報科学専攻情報理工学コース",
+        "links": ["https://yukiabe.com/"]
       },
       {
         "name": "辻口 輝",
@@ -361,11 +365,13 @@
     "creators": [
       {
         "name": "赤松 宏紀",
-        "affiliation": "大阪大学大学院情報科学研究科 博士前期課程"
+        "affiliation": "大阪大学大学院情報科学研究科 博士前期課程",
+        "links": ["https://github.com/hi120ki"]
       },
       {
         "name": "大迫 勇太郎",
-        "affiliation": "大阪大学大学院情報科学研究科 博士前期課程"
+        "affiliation": "大阪大学大学院情報科学研究科 博士前期課程",
+        "links": ["https://github.com/laika"]
       }
     ],
     "budget": 2736000,
@@ -435,7 +441,8 @@
     "creators": [
       {
         "name": "三林 亮太",
-        "affiliation": "兵庫県立大学大学院情報科学研究科 博士後期課程"
+        "affiliation": "兵庫県立大学大学院情報科学研究科 博士後期課程",
+        "links": ["https://researchmap.jp/ryotamibayashi"]
       }
     ],
     "budget": 2736000,
@@ -462,7 +469,8 @@
       },
       {
         "name": "柚山 大哉",
-        "affiliation": "慶應義塾大学 環境情報学部環境情報学科"
+        "affiliation": "慶應義塾大学 環境情報学部環境情報学科",
+        "links": ["https://web.sfc.wide.ad.jp/~daiya/"]
       }
     ],
     "budget": 2736000,
@@ -508,7 +516,8 @@
     "creators": [
       {
         "name": "蘇 子雄",
-        "affiliation": "東京大学大学院学際情報学府 学際情報学専攻"
+        "affiliation": "東京大学大学院学際情報学府 学際情報学専攻",
+        "links": ["https://github.com/amadeusuzx", "https://x.com/zshawnsu", "http://www.shawnsu.net/"]
       },
       {
         "name": "方 詩涛",
@@ -535,7 +544,8 @@
     "creators": [
       {
         "name": "関 健太郎",
-        "affiliation": "東京大学大学院情報理工学系研究科"
+        "affiliation": "東京大学大学院情報理工学系研究科",
+        "links": ["https://github.com/trgkpc", "https://trgkpc.github.io/"]
       },
       {
         "name": "大澤 悠一",

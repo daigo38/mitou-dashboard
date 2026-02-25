@@ -15,6 +15,7 @@ export interface Project {
   creators: {
     name: string;
     affiliation: string;
+    links?: string[];
   }[];
   budget?: number;
   links: string[];

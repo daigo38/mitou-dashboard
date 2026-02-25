@@ -48,7 +48,8 @@
     "creators": [
       {
         "name": "吉田 貴寿",
-        "affiliation": "東京大学大学院情報理工学系研究科システム情報学専攻"
+        "affiliation": "東京大学大学院情報理工学系研究科システム情報学専攻",
+        "links": ["https://x.com/TechPcho", "https://takatoshiyoshida.myportfolio.com/"]
       },
       {
         "name": "近藤 豊生",
@@ -126,7 +127,8 @@
     "creators": [
       {
         "name": "前田 舜太",
-        "affiliation": "フリーランス"
+        "affiliation": "フリーランス",
+        "links": ["https://github.com/shuntama"]
       },
       {
         "name": "関根 和希",
@@ -335,7 +337,8 @@
       },
       {
         "name": "徳永 優也",
-        "affiliation": "東京大学大学院工学系研究科機械工学専攻／Polaris.AI株式会社 代表取締役"
+        "affiliation": "東京大学大学院工学系研究科機械工学専攻／Polaris.AI株式会社 代表取締役",
+        "links": ["https://x.com/Polaris_yuya"]
       }
     ],
     "budget": 14400000,
@@ -358,7 +361,8 @@
     "creators": [
       {
         "name": "熊澤 龍生",
-        "affiliation": "慶應義塾大学総合政策学部"
+        "affiliation": "慶應義塾大学総合政策学部",
+        "links": ["https://x.com/kuma_ryu_"]
       },
       {
         "name": "池田 悠也",
@@ -397,7 +401,8 @@
       },
       {
         "name": "海老原 祐輔",
-        "affiliation": "東京大学大学院工学系研究科電気系工学専攻"
+        "affiliation": "東京大学大学院工学系研究科電気系工学専攻",
+        "links": ["https://github.com/ebiyu", "https://x.com/ebiyu_"]
       }
     ],
     "budget": 14400000,
@@ -420,11 +425,13 @@
     "creators": [
       {
         "name": "山本 健太",
-        "affiliation": "筑波大学人間総合科学学術院情報学学位プログラム"
+        "affiliation": "筑波大学人間総合科学学術院情報学学位プログラム",
+        "links": ["https://x.com/yamken_twi"]
       },
       {
         "name": "鈴木 一平",
-        "affiliation": "フリーランス"
+        "affiliation": "フリーランス",
+        "links": ["https://github.com/1heisuzuki", "https://x.com/1heisuzuki"]
       }
     ],
     "budget": 14400000,
@@ -448,7 +455,8 @@
     "creators": [
       {
         "name": "北 祐樹",
-        "affiliation": "株式会社Gaia Vision 代表取締役／東京大学生産技術研究所 特任研究員"
+        "affiliation": "株式会社Gaia Vision 代表取締役／東京大学生産技術研究所 特任研究員",
+        "links": ["https://x.com/0617north", "https://note.com/northy"]
       },
       {
         "name": "出本 哲",

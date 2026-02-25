@@ -117,10 +117,29 @@ export default function ProjectDetail({ project }: { project: Project }) {
               クリエータ
             </h2>
             {project.creators.map((creator, i) => (
-              <div key={i} className={i > 0 ? "mt-1" : ""}>
+              <div key={i} className={i > 0 ? "mt-2" : ""}>
                 <p className="font-medium text-gray-900">{creator.name}</p>
                 {creator.affiliation && (
                   <p className="text-sm text-gray-600">{creator.affiliation}</p>
+                )}
+                {creator.links && creator.links.length > 0 && (
+                  <div className="mt-1 flex flex-wrap gap-1">
+                    {creator.links.map((url) => {
+                      const meta = getLinkMeta(url);
+                      return (
+                        <a
+                          key={url}
+                          href={url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-0.5 rounded px-1.5 py-0.5 text-xs transition hover:opacity-80"
+                          style={{ fontSize: "0.65rem" }}
+                        >
+                          {meta.label}
+                        </a>
+                      );
+                    })}
+                  </div>
                 )}
               </div>
             ))}

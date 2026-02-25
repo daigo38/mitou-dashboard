@@ -13,7 +13,8 @@
     "creators": [
       {
         "name": "坂本 一憲",
-        "affiliation": "WillBooster株式会社"
+        "affiliation": "WillBooster株式会社",
+        "links": ["https://github.com/exKAZUu", "https://x.com/exKAZUu"]
       },
       {
         "name": "西本 航",
@@ -48,7 +49,8 @@
     "creators": [
       {
         "name": "林 摩梨花",
-        "affiliation": "株式会社キビテク"
+        "affiliation": "株式会社キビテク",
+        "links": ["https://x.com/mrk_h"]
       },
       {
         "name": "吉海 智晃",
@@ -139,7 +141,8 @@
     "creators": [
       {
         "name": "竹井 悠人",
-        "affiliation": "株式会社Basset"
+        "affiliation": "株式会社Basset",
+        "links": ["https://github.com/takeiyuto", "https://x.com/yutopio_ja"]
       },
       {
         "name": "WALRAVEN AYA ASHLEY",
@@ -174,7 +177,8 @@
     "creators": [
       {
         "name": "大峠 和基",
-        "affiliation": "筑波大学大学院　図書館情報メディア研究科"
+        "affiliation": "筑波大学大学院　図書館情報メディア研究科",
+        "links": ["https://github.com/meokz", "https://kazukiotao.com/"]
       },
       {
         "name": "千北 一期",
@@ -229,7 +233,8 @@
     "creators": [
       {
         "name": "前田 紘弥",
-        "affiliation": "株式会社アーバンエックステクノロジーズ　代表取締役社長"
+        "affiliation": "株式会社アーバンエックステクノロジーズ　代表取締役社長",
+        "links": ["https://x.com/hiroyamaeda1"]
       }
     ],
     "budget": 6400000,
@@ -252,7 +257,8 @@
     "creators": [
       {
         "name": "田島 圭二郎",
-        "affiliation": "東京大学"
+        "affiliation": "東京大学",
+        "links": ["https://x.com/keijirotajima"]
       },
       {
         "name": "佐伯 真",
@@ -279,7 +285,8 @@
     "creators": [
       {
         "name": "田脇 裕太",
-        "affiliation": "慶應義塾大学"
+        "affiliation": "慶應義塾大学",
+        "links": ["https://x.com/ytawaki"]
       },
       {
         "name": "森山 多覇",

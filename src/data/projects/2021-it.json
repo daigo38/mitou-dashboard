@@ -13,7 +13,8 @@
     "creators": [
       {
         "name": "迫田 大翔",
-        "affiliation": "Diver-X株式会社 代表取締役 / 慶應義塾大学 環境情報学部 1年"
+        "affiliation": "Diver-X株式会社 代表取締役 / 慶應義塾大学 環境情報学部 1年",
+        "links": ["https://x.com/yam_xeon"]
       },
       {
         "name": "浅野 啓",
@@ -121,7 +122,8 @@
     "creators": [
       {
         "name": "望月 草馬",
-        "affiliation": "筑波大学 情報学群 情報メディア創成学類"
+        "affiliation": "筑波大学 情報学群 情報メディア創成学類",
+        "links": ["https://soma-mochizuki.com/"]
       }
     ],
     "budget": 2736000,
@@ -244,7 +246,8 @@
       },
       {
         "name": "三橋 優希",
-        "affiliation": "角川ドワンゴ学園 N高等学校"
+        "affiliation": "角川ドワンゴ学園 N高等学校",
+        "links": ["https://github.com/yuki384", "https://x.com/yukimihashi"]
       }
     ],
     "budget": 2736000,
@@ -325,7 +328,8 @@
       },
       {
         "name": "海老原 祐輔",
-        "affiliation": "東京大学 三田研究室"
+        "affiliation": "東京大学 三田研究室",
+        "links": ["https://www.ebiyuu.com/"]
       }
     ],
     "budget": 2736000,
@@ -371,7 +375,8 @@
     "creators": [
       {
         "name": "Jantakorn Passawee",
-        "affiliation": "株式会社はてな Mackerel 開発チーム"
+        "affiliation": "株式会社はてな Mackerel 開発チーム",
+        "links": ["https://github.com/j-passawee"]
       }
     ],
     "budget": 2736000,
@@ -393,7 +398,8 @@
     "creators": [
       {
         "name": "矢尾田 貴大",
-        "affiliation": "Pianoforte 代表"
+        "affiliation": "Pianoforte 代表",
+        "links": ["https://github.com/zakuro9715", "https://x.com/zakuro9715"]
       }
     ],
     "budget": 2736000,
@@ -478,7 +484,8 @@
       },
       {
         "name": "松井 智一",
-        "affiliation": "奈良先端科学技術大学院大学 ユビキタスコンピューティングシステム研究室"
+        "affiliation": "奈良先端科学技術大学院大学 ユビキタスコンピューティングシステム研究室",
+        "links": ["https://sites.google.com/view/tomokazu-matsui/home"]
       }
     ],
     "budget": 2736000,
@@ -501,7 +508,8 @@
     "creators": [
       {
         "name": "関口 大樹",
-        "affiliation": "慶應義塾大学 政策・メディア研究科"
+        "affiliation": "慶應義塾大学 政策・メディア研究科",
+        "links": ["https://x.com/cr_daiki"]
       }
     ],
     "budget": 2736000,
