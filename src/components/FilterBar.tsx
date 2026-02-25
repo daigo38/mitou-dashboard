@@ -29,6 +29,12 @@ export default function FilterBar({
   onSearchChange,
   resultCount,
 }: FilterBarProps) {
+  const allYearsSelected = selectedYears.length === years.length;
+
+  const toggleAllYears = () => {
+    onYearsChange(allYearsSelected ? [] : [...years]);
+  };
+
   const toggleYear = (year: number) => {
     if (selectedYears.includes(year)) {
       onYearsChange(selectedYears.filter((y) => y !== year));
@@ -52,6 +58,15 @@ export default function FilterBar({
       <div className="flex flex-wrap items-center gap-4">
         <div className="flex items-center gap-2">
           <span className="text-sm font-medium text-gray-700">年度:</span>
+          <label className="flex items-center gap-1 text-sm font-medium">
+            <input
+              type="checkbox"
+              checked={allYearsSelected}
+              onChange={toggleAllYears}
+              className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            すべて
+          </label>
           {years.map((year) => (
             <label key={year} className="flex items-center gap-1 text-sm">
               <input
