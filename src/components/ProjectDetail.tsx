@@ -15,9 +15,7 @@ function YouTubeEmbed({ url }: { url: string }) {
   const videoId = match[1];
   return (
     <div className="mb-6">
-      <h2 className="mb-2 text-sm font-semibold text-gray-500">
-        成果報告会（Demo Day）
-      </h2>
+      <h2 className="mb-2 text-base font-semibold text-gray-500">成果報告会</h2>
       <div
         className="relative w-full overflow-hidden rounded-lg"
         style={{ paddingBottom: "56.25%" }}
@@ -92,20 +90,22 @@ export default function ProjectDetail({ project }: { project: Project }) {
         </h1>
 
         <div className="mb-6 leading-relaxed text-gray-700">
-          <h2 className="mb-2 text-sm font-semibold text-gray-500">
+          <h2 className="mb-2 text-base font-semibold text-gray-500">
             プロジェクト概要
           </h2>
           <MultiParagraph text={project.description} />
         </div>
 
         <div className="mb-6 leading-relaxed text-gray-700">
-          <h2 className="mb-2 text-sm font-semibold text-gray-500">採択理由</h2>
+          <h2 className="mb-2 text-base font-semibold text-gray-500">
+            採択理由
+          </h2>
           <MultiParagraph text={project.adoptionReason} />
         </div>
 
         <div className="mb-6 grid gap-4 sm:grid-cols-2">
           <div className="rounded-md bg-gray-50 p-4">
-            <h2 className="mb-2 text-sm font-semibold text-gray-500">PM</h2>
+            <h2 className="mb-2 text-base font-semibold text-gray-500">PM</h2>
             <p className="font-medium text-gray-900">{project.pm.name}</p>
             {project.pm.affiliation && (
               <p className="text-sm text-gray-600">{project.pm.affiliation}</p>
@@ -113,7 +113,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
           </div>
 
           <div className="rounded-md bg-gray-50 p-4">
-            <h2 className="mb-2 text-sm font-semibold text-gray-500">
+            <h2 className="mb-2 text-base font-semibold text-gray-500">
               クリエータ
             </h2>
             {project.creators.map((creator, i) => (
@@ -150,7 +150,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
 
         {project.budget && (
           <div className="mb-6">
-            <h2 className="mb-1 text-sm font-semibold text-gray-500">
+            <h2 className="mb-1 text-base font-semibold text-gray-500">
               採択金額
             </h2>
             <p className="text-lg font-medium text-gray-900">
@@ -162,7 +162,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
         {youtubeUrl && <YouTubeEmbed url={youtubeUrl} />}
 
         <div>
-          <h2 className="mb-2 text-sm font-semibold text-gray-500">
+          <h2 className="mb-2 text-base font-semibold text-gray-500">
             関連リンク
           </h2>
           {otherLinks.length > 0 ? (
