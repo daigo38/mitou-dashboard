@@ -52,7 +52,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
     <div className="mx-auto max-w-3xl">
       <Link
         href="/"
-        className="mb-6 inline-flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800"
+        className="mb-6 inline-flex items-center gap-1 text-sm text-blue-600 hover:text-blue-800 transition-colors"
       >
         <svg
           className="h-4 w-4"
@@ -72,14 +72,14 @@ export default function ProjectDetail({ project }: { project: Project }) {
 
       <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm sm:p-6">
         <div className="mb-4 flex flex-wrap items-center gap-2">
-          <span className="rounded bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-800">
+          <span className="rounded-full bg-blue-50 px-2.5 py-0.5 text-xs font-medium text-blue-700">
             {project.year}年度
           </span>
-          <span className="rounded bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-700">
+          <span className="rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-600">
             {programLabel[project.programType]}
           </span>
           {project.isSuperCreator && (
-            <span className="rounded bg-yellow-100 px-2 py-0.5 text-xs font-medium text-yellow-800">
+            <span className="rounded-full bg-amber-50 px-2.5 py-0.5 text-xs font-medium text-amber-700">
               スーパークリエータ
             </span>
           )}
