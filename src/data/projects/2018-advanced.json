@@ -1,0 +1,131 @@
+[
+  {
+    "id": "2018-advanced-i-1",
+    "title": "無線通信規格を用いた複数端末の統合型通知プラットフォームの開発",
+    "description": "無線通信機は、コミュニケーション、防災、日常のあらゆるシーンの活用されるものとして注目されている。\n本プロジェクトでは、無線通信規格を活用した通知方法/端末をシームレスに設計するための情報技術を確立し、様々な産業に応用するためのプラットフォームを構築する。\n事業化に向けて、想定するユーザに試作段階のプラットフォームを試用提供し、ユーザからのフィードバックを元に本プラットフォームで展開可能なサービスの潜在需要を洗い出し、具体的なビジネスモデルを構築する。",
+    "adoptionReason": "本プロジェクトで開発するプラットフォームは、アイデアとしてはシンプルながら様々な産業で用いることができる可能性を感じました。無線通信とコンピュータによる統計処理や制御を組み合わせることにより、チャイムから様々なシステムに発展する可能性があります。採択後は、どのような発展的な可能性があるかを、用いる場所や目的を様々に想定しながら、イノベータと議論していきたいです。",
+    "year": 2018,
+    "programType": "advanced",
+    "pm": {
+      "name": "石黒 浩",
+      "affiliation": ""
+    },
+    "creators": [
+      {
+        "name": "木村 喜生",
+        "affiliation": "デジタルハリウッド株式会社"
+      },
+      {
+        "name": "高山 和幸",
+        "affiliation": "ウェルスナビ株式会社"
+      }
+    ],
+    "budget": 8400000,
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2018/gaiyou_i-1.html"
+    ]
+  },
+  {
+    "id": "2018-advanced-u-1",
+    "title": "自走式3Dプリンティングシステムを用いた建築施工システムの開発",
+    "description": "現在、建築用3Dプリンティングシステムは海外でも開発が進められており、様々なシステムが登場している。しかし、現状では機械が大型であることなどから施工場所が限定的であり、日本の土地にそぐわない点が多い。\n本プロジェクトでは、自走式の小型の建設用3Dプリンティングロボットを使用し、自動建設化のためのソフトウェアを開発する。これにより、狭い土地での施工という日本の建設風土に配慮し、かつ高度なデザインの建築物を短期間、低コスト、少ない人員で建設することができるようになる。\n本プロジェクト期間中にモデルハウス(タイニーハウス)を構築し、3Dプリンティングシステムによって建物の建設が可能であることを明らかにすると同時に、従来の施工方法よりもどのくらいコストや作業員数を抑えたうえで自由な形状の建築を提案することができるかを検証する。また、商業施設や一般住宅、その他の産業へ展開させるために、スケール・デザイン的な発展と応用マーケットを模索する。",
+    "adoptionReason": "アイデアや技術内容は未踏からの発展系であり面白いです。チームの覚悟も良いです。これまでの建築の常識を大きく変えうるポテンシャルを持ち、技術陣も揃っていることから採択しました。一方で建築分野は法規制もあり事業化に時間がかかるので注意が必要です。まずは実装技術を高め特許などで押さえて利用ユースケースを広く探る一方、デザイン建築や海外などの市場も広く狙いたいです。本プロジェクトはプロジェクト計画時にターゲットがタイニーハウスの試作に変更されました。差別化技術の獲得と応用マーケットの模索を行い、事業化の目処をつけたいです。",
+    "year": 2018,
+    "programType": "advanced",
+    "pm": {
+      "name": "漆原 茂",
+      "affiliation": ""
+    },
+    "creators": [
+      {
+        "name": "平山 雄太",
+        "affiliation": "東京大学"
+      },
+      {
+        "name": "北浦 ひな子",
+        "affiliation": "東京大学"
+      },
+      {
+        "name": "梅沢 啓佑",
+        "affiliation": "フリーランス"
+      },
+      {
+        "name": "田窪 竣",
+        "affiliation": "株式会社ヒュービシステム研究所"
+      },
+      {
+        "name": "坂井 珠麗亜",
+        "affiliation": "東京大学"
+      }
+    ],
+    "budget": 10000000,
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2018/gaiyou_u-1.html",
+      "http://archileon.com/"
+    ]
+  },
+  {
+    "id": "2018-advanced-f-1",
+    "title": "イベントカメラ用高速画像処理ライブラリとアプリケーション開発",
+    "description": "自動運転、AR/VR、ドローン/ロボット等の分野で共通して必要なリアルタイム画像処理において、情報取得から出力までのセンサ遅延をいかに減らすかが制御の精度やユーザー体験の質を向上させるために重要である。生物の網膜の仕組みに着想を得たイベントカメラと呼ばれる新しいビジョンセンサは、画素ごとに非同期的に差分検知できるメカニズムによって、遅延の少なさ、データ量や消費電力の効率で従来のカメラを大きく上回っている。しかし、センサそのものが開発されてからまだ日が浅く、データの扱い方も既存のコンピュータビジョンの理論体系と異なる部分が多いため、実利用のアプリケーションはおろか開発者向けのライブラリさえ未だに存在せず、開発人口も少ない。\nそこで、本プロジェクトでは、イベントカメラを用いたコンピュータビジョンアルゴリズムとそのライブラリを開発、公開することで開発環境を整備し開発者や研究者への普及を図る。さらに、イベントカメラの高速画像処理を利用した応用技術の開発に取り組み、市場性のあるアプリケーションを決定・実装することで将来的な市場拡大を推進する。",
+    "adoptionReason": "イベントカメラは、人間の網膜のように輝度変化を非同期に捉えることができるカメラです。本提案は、イベントカメラを活用するための開発者ライブラリとデモアプリケーションの開発を目指します。従来のカメラでは不可能であった低消費電力、低レイテンシ、データ量圧縮をエッジ側で実現でき、またその特徴を簡単に活用できる開発ライブラリができれば、IoTサービスの目としてイベントカメラを活かした新たなサービスが生まれるであろうと考えています。",
+    "year": 2018,
+    "programType": "advanced",
+    "pm": {
+      "name": "藤井 彰人",
+      "affiliation": "KDDI株式会社 理事 ソリューション事業本部 ソリューション事業企画本部長"
+    },
+    "creators": [
+      {
+        "name": "荒川 陸",
+        "affiliation": "東京大学"
+      },
+      {
+        "name": "芝 慎太朗",
+        "affiliation": "トヨタ自動車株式会社"
+      }
+    ],
+    "budget": 8000000,
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2018/gaiyou_f-1.html"
+    ]
+  },
+  {
+    "id": "2018-advanced-k-1",
+    "title": "Web技術を活用したARクラウド(AR cloud empowered with Web technologies)",
+    "description": "In this project, we will create an AR browser to bind contents with geolocation or AR marker, and create an AR cloud to resolve contents around the browser.\nWe aim to create an AR cloud platform to enterprises who wish to deliver rich contents to the users. Users will also be able to upload contents easily by themselves. By this approach, our AR cloud platform will be populated with contents from both enterprises and users.\nIn the future, there should be many instances to use AR in everyday life. For instance, in a movie theater, movie characters will greet the visitors at the entrance. In elementary schools, children can exhibit their 3D models and animations created in a class of arts and crafts in their classrooms. People can decorate their own garden with AR.\nIn the past, we marveled at how the Internet changed our lives and our way of searching information. In this project, we aim to create a similar phenomenon by creating a platform for binding contents in the AR field.",
+    "adoptionReason": "The team already possesses two fundamentals for starting new business; good communication among the committed team members (five people) and a pilot customer project. I have a deep interest in the technology side of WebGL, 3D and VR, and am happy to mentor this project.",
+    "year": 2018,
+    "programType": "advanced",
+    "pm": {
+      "name": "James Kuffner",
+      "affiliation": "Toyota Research Institute Advanced Development CEO"
+    },
+    "creators": [
+      {
+        "name": "石井 翔",
+        "affiliation": "東京工業大学"
+      },
+      {
+        "name": "大谷 拓海",
+        "affiliation": "東京工業大学"
+      },
+      {
+        "name": "秋澤 一史",
+        "affiliation": "東京理科大学"
+      },
+      {
+        "name": "石山 暁業",
+        "affiliation": "silvereye株式会社"
+      },
+      {
+        "name": "大前 亮一",
+        "affiliation": "東京理科大学"
+      }
+    ],
+    "budget": 10000000,
+    "links": [
+      "https://www.ipa.go.jp/jinzai/mitou/advanced/2018/gaiyou_k-1.html"
+    ]
+  }
+]
