@@ -44,7 +44,7 @@ export default function FilterBar({
   };
 
   return (
-    <div className="mb-6 space-y-4 rounded-lg border border-gray-200 bg-white p-4 shadow-sm">
+    <div className="mb-4 space-y-3 overflow-hidden rounded-lg border border-gray-200 bg-white p-3 shadow-sm sm:mb-6 sm:space-y-4 sm:p-4">
       <div>
         <input
           type="text"
@@ -55,29 +55,33 @@ export default function FilterBar({
         />
       </div>
 
-      <div className="flex flex-wrap items-center gap-4">
-        <div className="flex items-center gap-2">
-          <span className="text-sm font-medium text-gray-700">年度:</span>
-          <label className="flex items-center gap-1 text-sm font-medium">
-            <input
-              type="checkbox"
-              checked={allYearsSelected}
-              onChange={toggleAllYears}
-              className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-            />
-            すべて
-          </label>
-          {years.map((year) => (
-            <label key={year} className="flex items-center gap-1 text-sm">
+      <div className="space-y-3 sm:space-y-0 sm:flex sm:flex-wrap sm:items-center sm:gap-4">
+        <div>
+          <span className="mb-1.5 block text-sm font-medium text-gray-700 sm:mb-0 sm:inline sm:mr-2">
+            年度:
+          </span>
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1.5">
+            <label className="flex items-center gap-1 text-sm font-medium">
               <input
                 type="checkbox"
-                checked={selectedYears.includes(year)}
-                onChange={() => toggleYear(year)}
+                checked={allYearsSelected}
+                onChange={toggleAllYears}
                 className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
               />
-              {year}
+              すべて
             </label>
-          ))}
+            {years.map((year) => (
+              <label key={year} className="flex items-center gap-1 text-sm">
+                <input
+                  type="checkbox"
+                  checked={selectedYears.includes(year)}
+                  onChange={() => toggleYear(year)}
+                  className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                {year}
+              </label>
+            ))}
+          </div>
         </div>
 
         <div className="flex items-center gap-2">
@@ -95,12 +99,14 @@ export default function FilterBar({
           </select>
         </div>
 
-        <div className="flex items-center gap-2">
-          <span className="text-sm font-medium text-gray-700">PM:</span>
+        <div className="flex min-w-0 items-center gap-2">
+          <span className="shrink-0 text-sm font-medium text-gray-700">
+            PM:
+          </span>
           <select
             value={selectedPm}
             onChange={(e) => onPmChange(e.target.value)}
-            className="rounded-md border border-gray-300 px-2 py-1 text-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
+            className="min-w-0 max-w-full rounded-md border border-gray-300 px-2 py-1 text-sm focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
           >
             <option value="all">すべて</option>
             {pms.map((pm) => (

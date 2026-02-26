@@ -70,7 +70,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
         一覧に戻る
       </Link>
 
-      <div className="rounded-lg border border-gray-200 bg-white p-6 shadow-sm">
+      <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm sm:p-6">
         <div className="mb-4 flex flex-wrap items-center gap-2">
           <span className="rounded bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-800">
             {project.year}年度
@@ -85,7 +85,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
           )}
         </div>
 
-        <h1 className="mb-4 text-2xl font-bold text-gray-900">
+        <h1 className="mb-3 text-xl font-bold text-gray-900 sm:mb-4 sm:text-2xl">
           {project.title}
         </h1>
 

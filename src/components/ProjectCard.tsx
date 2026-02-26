@@ -9,7 +9,7 @@ const programLabel: Record<string, string> = {
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
-    <div className="rounded-lg border border-gray-200 bg-white p-5 shadow-sm transition hover:shadow-md hover:border-gray-300">
+    <div className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition hover:shadow-md hover:border-gray-300 sm:p-5">
       <Link href={`/projects/${project.id}`}>
         <div className="mb-2 flex items-center gap-2">
           <span className="rounded bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-800">
@@ -25,7 +25,7 @@ export default function ProjectCard({ project }: { project: Project }) {
           )}
         </div>
 
-        <h3 className="mb-2 text-lg font-semibold text-gray-900 leading-snug">
+        <h3 className="mb-2 text-base font-semibold text-gray-900 leading-snug sm:text-lg">
           {project.title}
         </h3>
 
