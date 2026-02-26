@@ -1,27 +1,51 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { projects } from "@/data/projects";
 import { ProgramType } from "@/types/project";
 import ProjectCard from "@/components/ProjectCard";
 import FilterBar from "@/components/FilterBar";
 
-export default function Home() {
-  const years = useMemo(
-    () => [...new Set(projects.map((p) => p.year))].sort((a, b) => b - a),
-    [],
-  );
-  const pms = useMemo(
-    () => [...new Set(projects.map((p) => p.pm.name))].sort(),
-    [],
-  );
+const STORAGE_KEY = "mitou-dashboard-filters";
 
-  const [selectedYears, setSelectedYears] = useState<number[]>(years);
-  const [selectedProgram, setSelectedProgram] = useState<ProgramType | "all">(
-    "all",
+const allYears = [...new Set(projects.map((p) => p.year))].sort(
+  (a, b) => b - a,
+);
+const allPms = [...new Set(projects.map((p) => p.pm.name))].sort();
+
+function loadFilters() {
+  if (typeof window === "undefined") return null;
+  try {
+    const raw = sessionStorage.getItem(STORAGE_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch {
+    return null;
+  }
+}
+
+export default function Home() {
+  const [saved] = useState(loadFilters);
+
+  const [selectedYears, setSelectedYears] = useState<number[]>(
+    saved?.years ?? allYears,
   );
-  const [selectedPm, setSelectedPm] = useState("all");
-  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedProgram, setSelectedProgram] = useState<ProgramType | "all">(
+    saved?.program ?? "all",
+  );
+  const [selectedPm, setSelectedPm] = useState(saved?.pm ?? "all");
+  const [searchQuery, setSearchQuery] = useState(saved?.q ?? "");
+
+  useEffect(() => {
+    sessionStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify({
+        years: selectedYears,
+        program: selectedProgram,
+        pm: selectedPm,
+        q: searchQuery,
+      }),
+    );
+  }, [selectedYears, selectedProgram, selectedPm, searchQuery]);
 
   const filtered = useMemo(() => {
     return projects.filter((p) => {
@@ -48,12 +72,12 @@ export default function Home() {
   return (
     <>
       <FilterBar
-        years={years}
+        years={allYears}
         selectedYears={selectedYears}
         onYearsChange={setSelectedYears}
         selectedProgram={selectedProgram}
         onProgramChange={setSelectedProgram}
-        pms={pms}
+        pms={allPms}
         selectedPm={selectedPm}
         onPmChange={setSelectedPm}
         searchQuery={searchQuery}
