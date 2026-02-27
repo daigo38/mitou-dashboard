@@ -1,5 +1,12 @@
 export type ProgramType = "it" | "advanced";
 
+export interface LabeledLink {
+  url: string;
+  label: string;
+}
+
+export type ProjectLink = string | LabeledLink;
+
 export interface Project {
   id: string;
   title: string;
@@ -18,7 +25,7 @@ export interface Project {
     links?: string[];
   }[];
   budget?: number;
-  links: string[];
+  links: ProjectLink[];
   start?: number;
   isSuperCreator?: boolean;
 }

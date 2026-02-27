@@ -286,7 +286,10 @@
     "links": [
       "https://www.ipa.go.jp/jinzai/mitou/it/2019/gaiyou_s-4.html",
       "https://github.com/virtualsecureplatform",
-      "https://www.youtube.com/watch?v=apCbAPt7r3I"
+      "https://www.youtube.com/watch?v=apCbAPt7r3I",
+      { "url": "https://github.com/virtualsecureplatform/MitouDocument/blob/master/yoshiki4.pdf", "label": "提案書" },
+      { "url": "https://github.com/virtualsecureplatform/MitouDocument/blob/master/secondexam.pptx", "label": "二次面接プレゼンスライド" },
+      { "url": "https://github.com/virtualsecureplatform/MitouDocument/blob/master/report.pdf", "label": "成果報告書" }
     ]
   },
   {
@@ -314,7 +317,8 @@
     "links": [
       "https://www.ipa.go.jp/jinzai/mitou/it/2019/gaiyou_tk-1.html",
       "https://github.com/tomoyanonymous/mimium",
-      "https://www.youtube.com/watch?v=J-K4IWDHgdo"
+      "https://www.youtube.com/watch?v=J-K4IWDHgdo",
+      { "url": "https://git.matsuuratomoya.com/tomoyanonymous/mitou2019_matsuura_application", "label": "提案書" }
     ]
   },
   {

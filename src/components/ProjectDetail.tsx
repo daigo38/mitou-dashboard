@@ -2,7 +2,8 @@ import Link from "next/link";
 import { Project } from "@/types/project";
 import {
   getLinkMeta,
-  isYouTubeUrl,
+  resolveLink,
+  isYouTubeLink,
   appendYouTubeStart,
 } from "@/utils/linkMeta";
 
@@ -52,8 +53,13 @@ function MultiParagraph({ text }: { text: string }) {
 }
 
 export default function ProjectDetail({ project }: { project: Project }) {
-  const youtubeUrl = project.links.find(isYouTubeUrl);
-  const otherLinks = project.links.filter((url) => !isYouTubeUrl(url));
+  const youtubeLink = project.links.find(isYouTubeLink);
+  const youtubeUrl = youtubeLink
+    ? typeof youtubeLink === "string"
+      ? youtubeLink
+      : youtubeLink.url
+    : undefined;
+  const otherLinks = project.links.filter((link) => !isYouTubeLink(link));
 
   return (
     <div className="mx-auto max-w-3xl">
@@ -174,8 +180,9 @@ export default function ProjectDetail({ project }: { project: Project }) {
           </h2>
           {otherLinks.length > 0 ? (
             <div className="flex flex-wrap gap-2">
-              {otherLinks.map((url) => {
-                const meta = getLinkMeta(url);
+              {otherLinks.map((link) => {
+                const { url, label } = resolveLink(link);
+                const meta = getLinkMeta(url, label);
                 return (
                   <a
                     key={url}

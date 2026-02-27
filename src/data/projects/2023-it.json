@@ -29,7 +29,8 @@
     "budget": 2736000,
     "links": [
       "https://www.ipa.go.jp/jinzai/mitou/it/2023/gaiyou_ig-1.html",
-      "https://www.youtube.com/watch?v=2AKuOxyUSBs"
+      "https://www.youtube.com/watch?v=2AKuOxyUSBs",
+      { "url": "https://github.com/ut-ashiki-engineering/mitou/blob/main/%E6%8F%90%E6%A1%88%E6%9B%B8_smartgoal.pdf", "label": "提案書" }
     ]
   },
   {
@@ -408,7 +409,10 @@
     "links": [
       "https://www.ipa.go.jp/jinzai/mitou/it/2023/gaiyou_tk-1.html",
       "https://www.youtube.com/watch?v=FXtZBt62yik",
-      "https://github.com/erg-lang/erg/ "
+      "https://github.com/erg-lang/erg/ ",
+      { "url": "https://github.com/mtshiba/mitou-docs/blob/main/%E5%AF%A9%E6%9F%BB/%E6%8F%90%E6%A1%88%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E8%A9%B3%E7%B4%B0%E8%B3%87%E6%96%99.pdf", "label": "提案書" },
+      { "url": "https://github.com/mtshiba/mitou-docs/blob/main/%E5%AF%A9%E6%9F%BB/%E4%BA%8C%E6%AC%A1%E5%AF%A9%E6%9F%BB%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3.pdf", "label": "二次面接プレゼンスライド" },
+      { "url": "https://github.com/mtshiba/mitou-docs/blob/main/%E6%88%90%E6%9E%9C%E5%A0%B1%E5%91%8A/%E8%8A%9D%E5%B1%B1%E9%A7%BF%E4%BB%8B%EF%BC%88%E5%A0%B1%E5%91%8A%E6%9B%B8%EF%BC%89.pdf", "label": "成果報告書" }
     ]
   },
   {
@@ -455,7 +459,8 @@
     "budget": 2736000,
     "links": [
       "https://www.ipa.go.jp/jinzai/mitou/it/2023/gaiyou_tk-3.html",
-      "https://www.youtube.com/watch?v=qsItvs4B4yQ"
+      "https://www.youtube.com/watch?v=qsItvs4B4yQ",
+      { "url": "https://github.com/Noxy3301/mitou23_docs/blob/main/proposal.pdf", "label": "提案書" }
     ]
   },
   {

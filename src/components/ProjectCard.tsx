@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Project } from "@/types/project";
-import { getLinkMeta, appendYouTubeStart } from "@/utils/linkMeta";
+import { getLinkMeta, resolveLink, appendYouTubeStart } from "@/utils/linkMeta";
 
 const programLabel: Record<string, string> = {
   it: "未踏IT",
@@ -49,8 +49,9 @@ export default function ProjectCard({ project }: { project: Project }) {
 
       {project.links.length > 0 && (
         <div className="mt-3 flex flex-wrap items-center gap-1.5 border-t border-gray-100 pt-3">
-          {project.links.map((url) => {
-            const meta = getLinkMeta(url);
+          {project.links.map((link) => {
+            const { url, label } = resolveLink(link);
+            const meta = getLinkMeta(url, label);
             return (
               <a
                 key={url}

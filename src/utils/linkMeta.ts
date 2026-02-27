@@ -1,4 +1,5 @@
 import { type ReactElement, createElement } from "react";
+import type { ProjectLink } from "@/types/project";
 
 interface LinkMeta {
   label: string;
@@ -133,11 +134,30 @@ const defaultMeta: LinkMeta = {
   className: "text-blue-500 hover:text-blue-700",
 };
 
-export function getLinkMeta(url: string): LinkMeta {
+export function getLinkMeta(url: string, labelOverride?: string): LinkMeta {
   for (const rule of rules) {
-    if (rule.test(url)) return rule.meta;
+    if (rule.test(url)) {
+      if (labelOverride)
+        return { ...rule.meta, label: labelOverride, showLabel: true };
+      return rule.meta;
+    }
   }
+  if (labelOverride)
+    return { ...defaultMeta, label: labelOverride, showLabel: true };
   return defaultMeta;
+}
+
+export function resolveLink(link: ProjectLink): {
+  url: string;
+  label?: string;
+} {
+  if (typeof link === "string") return { url: link };
+  return { url: link.url, label: link.label };
+}
+
+export function isYouTubeLink(link: ProjectLink): boolean {
+  const url = typeof link === "string" ? link : link.url;
+  return url.includes("youtube.com") || url.includes("youtu.be");
 }
 
 export function isYouTubeUrl(url: string): boolean {
