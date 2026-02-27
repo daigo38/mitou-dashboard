@@ -318,7 +318,9 @@
       "https://www.ipa.go.jp/jinzai/mitou/it/2019/gaiyou_tk-1.html",
       "https://github.com/tomoyanonymous/mimium",
       "https://www.youtube.com/watch?v=J-K4IWDHgdo",
-      { "url": "https://git.matsuuratomoya.com/tomoyanonymous/mitou2019_matsuura_application", "label": "提案書" }
+      { "url": "https://git.matsuuratomoya.com/tomoyanonymous/mitou2019_matsuura_application/src/branch/main/mitou_application_matsuura_2019.pdf", "label": "提案書" },
+      { "url": "https://git.matsuuratomoya.com/tomoyanonymous/mitou2019_matsuura_application/src/branch/main/mitou2019-presentation.pdf", "label": "二次面接プレゼンスライド" },
+      { "url": "https://git.matsuuratomoya.com/tomoyanonymous/mitou2019_matsuura_application/src/branch/main/mitou_seika_houkoku_full_matsuura_2019.pdf", "label": "成果報告書" }
     ]
   },
   {
