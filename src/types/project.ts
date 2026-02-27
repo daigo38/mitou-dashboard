@@ -19,5 +19,6 @@ export interface Project {
   }[];
   budget?: number;
   links: string[];
+  start?: number;
   isSuperCreator?: boolean;
 }

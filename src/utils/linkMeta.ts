@@ -143,3 +143,9 @@ export function getLinkMeta(url: string): LinkMeta {
 export function isYouTubeUrl(url: string): boolean {
   return url.includes("youtube.com") || url.includes("youtu.be");
 }
+
+export function appendYouTubeStart(url: string, start?: number): string {
+  if (!start || !isYouTubeUrl(url)) return url;
+  const sep = url.includes("?") ? "&" : "?";
+  return `${url}${sep}t=${start}s`;
+}

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Project } from "@/types/project";
-import { getLinkMeta } from "@/utils/linkMeta";
+import { getLinkMeta, appendYouTubeStart } from "@/utils/linkMeta";
 
 const programLabel: Record<string, string> = {
   it: "未踏IT",
@@ -54,7 +54,7 @@ export default function ProjectCard({ project }: { project: Project }) {
             return (
               <a
                 key={url}
-                href={url}
+                href={appendYouTubeStart(url, project.start)}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}

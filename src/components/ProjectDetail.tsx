@@ -1,18 +1,25 @@
 import Link from "next/link";
 import { Project } from "@/types/project";
-import { getLinkMeta, isYouTubeUrl } from "@/utils/linkMeta";
+import {
+  getLinkMeta,
+  isYouTubeUrl,
+  appendYouTubeStart,
+} from "@/utils/linkMeta";
 
 const programLabel: Record<string, string> = {
   it: "未踏IT",
   advanced: "未踏アドバンスト",
 };
 
-function YouTubeEmbed({ url }: { url: string }) {
+function YouTubeEmbed({ url, start }: { url: string; start?: number }) {
   const match = url.match(
     /(?:youtube\.com\/watch\?v=|youtube\.com\/live\/|youtu\.be\/)([^&?]+)/,
   );
   if (!match) return null;
   const videoId = match[1];
+  const embedSrc = start
+    ? `https://www.youtube.com/embed/${videoId}?start=${start}`
+    : `https://www.youtube.com/embed/${videoId}`;
   return (
     <div className="mb-6">
       <h2 className="mb-2 text-base font-semibold text-gray-500">成果報告会</h2>
@@ -22,7 +29,7 @@ function YouTubeEmbed({ url }: { url: string }) {
       >
         <iframe
           className="absolute inset-0 h-full w-full"
-          src={`https://www.youtube.com/embed/${videoId}`}
+          src={embedSrc}
           title="MITOU Demo Day"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -159,7 +166,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
           </div>
         )}
 
-        {youtubeUrl && <YouTubeEmbed url={youtubeUrl} />}
+        {youtubeUrl && <YouTubeEmbed url={youtubeUrl} start={project.start} />}
 
         <div>
           <h2 className="mb-2 text-base font-semibold text-gray-500">
