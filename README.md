@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 未踏プロジェクトダッシュボード
 
-## Getting Started
+IPA 未踏事業（未踏IT人材発掘・育成事業 / 未踏アドバンスト事業）のプロジェクトを一覧・検索できるダッシュボードです。
 
-First, run the development server:
+## 機能
+
+- 年度・事業区分（IT / アドバンスト）・PM によるフィルタリング
+- プロジェクト名・クリエイター名・概要のフリーテキスト検索
+- プロジェクト詳細ページ（提案書・成果報告書・デモ動画等へのリンク）
+- フィルター状態の自動保存（sessionStorage）
+
+## 技術スタック
+
+- [Next.js](https://nextjs.org) 16 (App Router)
+- [React](https://react.dev) 19
+- [Tailwind CSS](https://tailwindcss.com) 4
+- TypeScript
+
+## セットアップ
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+http://localhost:3000 で開きます。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## データの更新
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+プロジェクトデータは `src/data/projects/` に年度・事業区分ごとの JSON ファイルとして格納されています。
 
-## Learn More
+```bash
+# IPA サイトからスクレイピング
+npx tsx scripts/scrape-projects.ts
 
-To learn more about Next.js, take a look at the following resources:
+# JSON からインデックスファイルを再生成
+npm run gen:projects
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 情報の修正・お問い合わせ
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+データの誤りや追加情報がある場合は [Issue](https://github.com/daigo38/mitou-dashboard/issues) または Pull Request でお知らせください。
