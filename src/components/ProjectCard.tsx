@@ -9,9 +9,9 @@ const programLabel: Record<string, string> = {
 
 export default function ProjectCard({ project }: { project: Project }) {
   return (
-    <div className="group rounded-xl border border-gray-200/80 bg-white p-4 shadow-sm transition-all hover:shadow-md hover:border-gray-300/80 sm:p-5">
+    <div className="group overflow-hidden rounded-xl border border-gray-200/80 bg-white p-4 shadow-sm transition-all hover:shadow-md hover:border-gray-300/80 sm:p-5">
       <Link href={`/projects/${project.id}`}>
-        <div className="mb-2.5 flex items-center gap-1.5">
+        <div className="mb-2.5 flex flex-wrap items-center gap-1.5">
           <span className="rounded-full bg-blue-50 px-2.5 py-0.5 text-xs font-medium text-blue-700">
             {project.year}年度
           </span>
