@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/*
+  iOS Safari auto-zooms focused form controls when font-size < 16px.
+  Keep 16px on touch devices to prevent zoom-jump while preserving desktop sizing.
+*/
+@media (hover: none) and (pointer: coarse) {
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+}

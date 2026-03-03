@@ -29,7 +29,7 @@ export default function RootLayout({
       >
         <header className="border-b border-gray-200/80 bg-white">
           <div className="mx-auto max-w-6xl px-4 py-4 sm:py-5">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <div className="flex items-center gap-3">
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-white sm:h-9 sm:w-9">
                   <svg
@@ -59,7 +59,7 @@ export default function RootLayout({
                 href="https://github.com/daigo38/mitou-dashboard"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-1.5 text-xs text-gray-400 hover:text-gray-600 transition-colors sm:text-sm"
+                className="flex items-center gap-1.5 self-start text-xs text-gray-400 transition-colors hover:text-gray-600 sm:self-auto sm:text-sm"
               >
                 <svg
                   className="h-4 w-4 sm:h-5 sm:w-5"

@@ -74,7 +74,7 @@ export default function FilterBar({
           placeholder="タイトル・概要・名前を検索..."
           value={searchQuery}
           onChange={(e) => onSearchChange(e.target.value)}
-          className="w-full rounded-lg border border-gray-200 bg-gray-50 py-2.5 pl-10 pr-3 text-sm transition-colors placeholder:text-gray-400 focus:border-gray-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-gray-400/20"
+          className="w-full rounded-lg border border-gray-200 bg-gray-50 py-2.5 pl-10 pr-3 text-base transition-colors placeholder:text-gray-400 focus:border-gray-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-gray-400/20 sm:text-sm"
         />
       </div>
 
@@ -118,7 +118,7 @@ export default function FilterBar({
           <span className="mb-2 block text-xs font-semibold uppercase tracking-wider text-gray-400 sm:mb-1.5">
             種別
           </span>
-          <div className="flex gap-1.5">
+          <div className="flex flex-wrap gap-1.5">
             {(
               [
                 { value: "it", label: "未踏IT" },
@@ -151,7 +151,7 @@ export default function FilterBar({
             <select
               value={selectedPm}
               onChange={(e) => onPmChange(e.target.value)}
-              className="min-w-0 max-w-full appearance-none rounded-full border border-gray-200 bg-gray-50 py-1 pl-3 pr-8 text-xs font-medium text-gray-700 transition-colors hover:bg-gray-100 focus:border-gray-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-gray-400/20"
+              className="min-w-0 max-w-full appearance-none rounded-full border border-gray-200 bg-gray-50 py-1 pl-3 pr-8 text-base font-medium text-gray-700 transition-colors hover:bg-gray-100 focus:border-gray-400 focus:bg-white focus:outline-none focus:ring-2 focus:ring-gray-400/20 sm:text-xs"
             >
               <option value="all">すべて</option>
               {pms.map((pm) => (
